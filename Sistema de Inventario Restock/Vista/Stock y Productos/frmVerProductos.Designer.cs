@@ -1,0 +1,124 @@
+﻿namespace Vista.Stock_y_Productos
+{
+    partial class frmVerProductos
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.dgvVerProductos = new System.Windows.Forms.DataGridView();
+            this.txtBuscarId = new System.Windows.Forms.MaskedTextBox();
+            this.btnAgregarProductos = new System.Windows.Forms.Button();
+            this.lblBuscarId = new System.Windows.Forms.Label();
+            this.lblBuscarNombre = new System.Windows.Forms.Label();
+            this.txtBuscarNombre = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvVerProductos)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dgvVerProductos
+            // 
+            this.dgvVerProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvVerProductos.Location = new System.Drawing.Point(82, 209);
+            this.dgvVerProductos.Name = "dgvVerProductos";
+            this.dgvVerProductos.RowHeadersWidth = 51;
+            this.dgvVerProductos.RowTemplate.Height = 24;
+            this.dgvVerProductos.Size = new System.Drawing.Size(953, 459);
+            this.dgvVerProductos.TabIndex = 0;
+            // 
+            // txtBuscarId
+            // 
+            this.txtBuscarId.Location = new System.Drawing.Point(804, 146);
+            this.txtBuscarId.Mask = "0000";
+            this.txtBuscarId.Name = "txtBuscarId";
+            this.txtBuscarId.Size = new System.Drawing.Size(173, 22);
+            this.txtBuscarId.TabIndex = 11;
+            this.txtBuscarId.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtBuscarid_MaskInputRejected);
+            // 
+            // btnAgregarProductos
+            // 
+            this.btnAgregarProductos.Location = new System.Drawing.Point(460, 12);
+            this.btnAgregarProductos.Name = "btnAgregarProductos";
+            this.btnAgregarProductos.Size = new System.Drawing.Size(253, 79);
+            this.btnAgregarProductos.TabIndex = 10;
+            this.btnAgregarProductos.Text = "Agregar Productos";
+            this.btnAgregarProductos.UseVisualStyleBackColor = true;
+            this.btnAgregarProductos.Click += new System.EventHandler(this.btnAgregarProductos_Click);
+            // 
+            // lblBuscarId
+            // 
+            this.lblBuscarId.AutoSize = true;
+            this.lblBuscarId.Location = new System.Drawing.Point(735, 149);
+            this.lblBuscarId.Name = "lblBuscarId";
+            this.lblBuscarId.Size = new System.Drawing.Size(63, 16);
+            this.lblBuscarId.TabIndex = 9;
+            this.lblBuscarId.Text = "Buscar id";
+            // 
+            // lblBuscarNombre
+            // 
+            this.lblBuscarNombre.AutoSize = true;
+            this.lblBuscarNombre.Location = new System.Drawing.Point(141, 152);
+            this.lblBuscarNombre.Name = "lblBuscarNombre";
+            this.lblBuscarNombre.Size = new System.Drawing.Size(125, 16);
+            this.lblBuscarNombre.TabIndex = 8;
+            this.lblBuscarNombre.Text = "Buscar Por Nombre";
+            // 
+            // txtBuscarNombre
+            // 
+            this.txtBuscarNombre.Location = new System.Drawing.Point(289, 146);
+            this.txtBuscarNombre.Name = "txtBuscarNombre";
+            this.txtBuscarNombre.Size = new System.Drawing.Size(330, 22);
+            this.txtBuscarNombre.TabIndex = 7;
+            this.txtBuscarNombre.TextChanged += new System.EventHandler(this.txtBuscarNombre_TextChanged);
+            // 
+            // frmVerProductos
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1112, 701);
+            this.Controls.Add(this.txtBuscarId);
+            this.Controls.Add(this.btnAgregarProductos);
+            this.Controls.Add(this.lblBuscarId);
+            this.Controls.Add(this.lblBuscarNombre);
+            this.Controls.Add(this.txtBuscarNombre);
+            this.Controls.Add(this.dgvVerProductos);
+            this.Name = "frmVerProductos";
+            this.Text = "frmVerProductos";
+            this.Load += new System.EventHandler(this.frmVerProductos_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvVerProductos)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView dgvVerProductos;
+        private System.Windows.Forms.MaskedTextBox txtBuscarId;
+        private System.Windows.Forms.Button btnAgregarProductos;
+        private System.Windows.Forms.Label lblBuscarId;
+        private System.Windows.Forms.Label lblBuscarNombre;
+        private System.Windows.Forms.TextBox txtBuscarNombre;
+    }
+}
