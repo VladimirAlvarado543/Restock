@@ -135,7 +135,6 @@ detalles VARCHAR(MAX),
 cantidad INT NOT NULL,
 --Cantidad de producto vendido--
 fechaVenta DATE NOT NULL,
---Fecha en que se realizo la venta--
 FOREIGN KEY(idProducto) REFERENCES Producto(idProducto));
 --llaves foraneas--
 GO
@@ -166,7 +165,6 @@ FOREIGN KEY(idProducto) REFERENCES Producto(idProducto));
 GO
 
 --Eliminar tablas en orden--
-DROP TABLE 
 DROP TABLE ProductoDescartado
 DROP TABLE Cliente
 DROP TABLE Categoria
@@ -200,231 +198,118 @@ SELECT *FROM Producto
 SELECT *FROM Marca
 SELECT *FROM Categoria
 
---Se Agregan los valores a la tabla Proveedor--
-
---Primer insert--
 
 insert into Proveedor values ('Alejandra Ramirez', 'ELECTRONICA STEREN EL SALVADOR SA DE CV
-
 ', 'EQUIPOS ELECTRONICOS, IPTV Y CABLEADO','INTV-110 TV BOX','0614-231120-103-5','alejandra_ramirez@steren.com.mx',
-
 'local 287-288 8 etapa metrocentro san salvador san salvador.
-
 ','25083134','www.steren.com.mx','78542152','WhatsApp 76300589')
  
---Segundo Insert--
-
 insert into Proveedor values ('RIGOBERTO RIVERA','CASA RIVAS','EQUIPOS ELECTRONICOS, CABLES Y COMPONENTES',
-
 'FIBRA','0621-241152-103-2','rigoberto_riv@casarivas.com.sv',' 2a Avenida Norte #312, San Salvador',
-
 '22221718','www.casarivas.com','22220964','WhatsApp 72204545')
- 
---Tercer Insert--
 
 insert into Proveedor values ('ARMANDO RODRIGUEZ LARA','ELECTRONICA JAPONESA','CABLEADO Y COMPONENTES',
-
 'CABLEADO','0615-25455-108-1','parquelibertad@electronicajaponesa.com',' 2a Calle Oriente, Portal Sagrera #17-319, San Salvador',
-
 '2221 6558','www.electronicajaponesa.com','  -  ','WhatsApp 77441553')
- 
---Cuarto Insert--
 
 insert into Proveedor values ('LILIANA ROXANA RIVAS','RG Nieto SA de CV','Tienda de accesorios tecnológicos para oficina y hogar.',
-
 'EQUIPO OFICINA','0645-25454-125-5','cm_rgnieto@outlook.com','Metrocentro 8va Etapa, Metrosur, San Salvador, El Salvador',
-
 '2261 0016','  -  ','  -  ','WhatsApp 69252525')
- 
---Quinto Insert--
 
 Insert into Proveedor values ('PEDRO ARIZABAL','JMTelcom S.A de C.V.','Telecommunications equipment supplier',
-
 'EQUIPO OFICINA','0615-25454-712-1','info@jmtelcom.com','67 av Sur, # 2-D, Colonia Roma, San Salvador, El Salvador',
-
 '22466000','www.tiendajmtelcom.com','2246 6000','	-  ')
- 
+
 Select * From Proveedor
- 
---Ahora Agreamos valores a la tabla
- 
-select *from Cliente
- 
- 
---Primer Insert--
 
 Insert into Cliente values ('OSCAR ANTONIO SANCHEZ ABREGO','  -  ','00:1A:79:58:8A:39',' ','22251212',
-
 'oscar ant@gmail.com','SAN SALVADOR','79254545')
- 
---Segundo Insert--
 
 Insert into Cliente values ('NOE DAVID MORAN ZANCO','  -  ','00:1A:79:58:89:74',' ','23261215','noe david@gmail.com',
-
 'SAN SALVADOR','74562545')
- 
---Tercer Insert--
 
 Insert into Cliente values ('PRUEBA OFICINA VERSAILLES REASIGNADA','  -  ','00:1A:79:58:8D:D4',' ','22304444',
-
 'prueba of@gmail.com','SAN SALVADOR','69253698')
- 
---Cuarto Insert--
 
 Insert into Cliente values ('DORIS ELIZABETH GOMEZ DE RODEZNO','  -  ','00:1A:79:58:88:48',' ','26701112','doris eli@gmail.com',
-
 'SAN SALVADOR','75144578')
- 
---Quinto Insert--
 
 Insert into Cliente values ('MARIA LUISA VASQUEZ OSORIO','  -  ','00:1A:79:58:83:77',' ','26701245','maria lui@gmail.com','SAN SALVADOR',
-
 '71184540')
- 
---Sexto Insert--
 
 Insert into Cliente values ('NATALY NOHEMY RAMIREZ SANTOS','  -  ','00:1A:79:58:7F:D5',' ','22300058','nataly no@gmail.com',
-
 'SAN SALVADOR','76202525')
- 
---Septimo Insert--
 
 Insert into CLiente values ('OSCAR ARMANDO VELASQUEZ REYES','  -  ','00:1A:79:58:8A:B9',' ','22561845','oscar arm@gmail.com',
-
 'SAN SALVADOR','78992545')
- 
---Octavo Insert--
 
 Insert into Cliente values ('JULIO ALBERTO PANAMEÑO HURTADO','  -  ','00:1A:79:58:80:15',' ','21184045','julio alb@gmail.com',
-
 'SAN SALVADOR','78402545')
- 
---Noveno Insert--
 
 Insert into Cliente values ('JUAN JOSE FRANCO','  -  ','00:1A:79:58:7F:75',' ','21184978','juan jose@gmail.com','SAN SALVADOR',
-
 '71456589')
- 
---Decimo Insert--
 
 Insert into Cliente values('VIRGILIO COMPRAS ONLINE','  -  ','00:1A:79:58:86:2D',' ','22304599','virgilio @gmail.com','SAN SALVADOR',
-
 '70029541')
- 
---DecimoPrimero Insert--
 
 Insert into Cliente values ('JUAN JOSE FRANCO 1','  -  ','00:1A:79:58:88:4B',' ','22305488','juan jose@gmail.com','SAN SALVADOR',
-
 '70029445')
- 
---DecimoSegundo Insert--
 
 Insert into Cliente values ('MARIO ERNESTO ORELLANA MARTINEZ','  -  ','00:1A:79:58:83:F1',' ','21184963','mario ern@gmail.com',
-
 'SAN SALVADOR','72204578')
- 
---DecimoTercer Insert--
 
 Insert into Cliente values ('DAYSI ALEJANDRA DEL VALLE CALLES VIRTUAL','  -  ','00:1A:79:58:8D:D7',' ','25457878',
-
 'daysi ale@gmail.com','SAN SALVADOR','71124558')
- 
---DecimoCuarto Insert--
 
 Insert into CLiente values ('VILMA HAYDE CHAVEZ GIRON','  -  ','00:1A:79:58:85:F0',' ','22561744','vilma hay@gmail.com',
-
 'SAN SALVADOR','69254525')
- 
---DecimoQuinto Insert--
 
 Insert into Cliente values ('JOSE  MANUEL RODRIGUEZ LOVO','  -  ','00:1A:79:58:8A:44',' ','22561844','jose  man@gmail.com',
-
 'SAN SALVADOR','69141414')
- 
---DecimoSexto Insert--
 
 Insert into Cliente values ('ERICKA ESTEFANIA CORNEJO TORRES','  -  ','00:1A:79:58:84:FE',' ','22561945','ericka es@gmail.com',
-
 'SAN SALVADOR','61207899')
- 
---DecimoSeptimo Insert--
+
 
 Insert into Cliente values ('ERICKA ESTEFANIA CORNEJO TORRES','  -  ','00:1A:79:58:87:6F',' ','22408090','ericka es@gmail.com',
-
 'SAN SALVADOR','74401254')
- 
---DecimoOctavo Insert--
 
 Insert into Cliente values ('ANA RUTH CARBAJAL CORTEZ','  -  ','00:1A:79:58:8A:DC',' ','23264646','ana ruth @gmail.com',
-
 'SAN SALVADOR','76300898')
- 
---DecimoNoveno Insert--
 
 Insert into Cliente values ('LESLY LISSETT REYES QUEZADA','  -  ','00:1A:79:58:82:6D',' ','28789878','lesly lis@gmail.com',
-
 'SAN SALVADOR','76152025')
- 
---Vigesimo Insert--
 
 Insert into Cliente values ('EDITH ALDANUVIA GARCIA CANJURA','  -  ','00:1A:79:58:82:6F',' ','21184578','edith ald@gmail.com',
-
 'SAN SALVADOR','76904598')
- 
---Pasamos a Agregar la categoria--
- 
- 
---Primer Insert--
+ select *from Cliente
+
 
 Insert into Categoria values ('STEREN', 'MULTIMEDIA')
- 
---Segundo Insert--
 
 Insert into Categoria values ('JMTELCOM','TELECOMUNICACIONES')
  
---Tercer Insert--
-
 Insert into Categoria values ('JMTELCOM','EQUIPO OFICINA')
  
---Cuarto insert--
-
 Insert into Categoria values ('JMTELCOM','CABLEADO')
- 
---Quinto Insert--
 
 Insert into Categoria values ('RG Nieto SA de CV','EQUIPOS PERIFERICOS')
  
---Sexto Insert--
-
 Insert into Categoria values ('ELECTRONICA JAPONESA','EQUIPOS FIBRA OPTICA')
- 
---Septimo Insert--
 
 Insert into Categoria values ('ELECTRONICA JAPONESA','EQUIPOS CABLE TV ANALOGO')
  
 Select *From Categoria
  
 Select *from Marca
- 
---Insertamos valores en categoria--
- 
---Primer Insert--
 
 Insert into Marca values ('STEREN',' ')
- 
---Segundo Insert--
 
 Insert into Marca values ('JMTELCOM',' ')
- 
---Tercer Insert--
 
 Insert into Marca values ('RG Nieto SA de CV', ' ')
- 
---Cuarto Insert--
 
 Insert into Marca values ('Electronica Japonesa',' ')
- 
---Ahora se insertaran los valores a la tabla Producots ;v
  
  
 --ID MULTIMEDIA = 1             STEREN ID = 1
@@ -451,61 +336,33 @@ Insert into Marca values ('Electronica Japonesa',' ')
 --Primer Insert--
 
 Insert into Producto values ('INTV 110','TV BOX','1','1','40',' 29.19','2025/06/25','45',100)
- 
---Segundo Insert--
 
 Insert into Producto values ('MXQ 4K','TV BOX','1','1','15','19.40','2025/04/15','25',102)
- 
---Tercer Insert--
 
 Insert into Producto values ('RM-325-2','CONTROL TV','1','1','6','9.99','2025/04/12','17',101)
- 
---Cuarto Insert
 
 Insert into Producto values ('PO42881','CONVERTIDOR HDMI A VGA','5','3','10','4.25','2025/06/15','9.99',101)
- 
---Quinto Insert--
 
 Insert into Producto values ('GRANSTREAM GXP1625','TELEFONOS IP','2','2','10','45.25','2025/06/12','62',104)
- 
---Sexto Insert--
 
 Insert into Producto values ('INTV 110 PRO','TV BOX','1','1','20','32.00','2025/06/22','49',100)
- 
---Septimo Insert--
 
 Insert into Producto values ('MONITOR AOC','MONITOR','5','3','3','93.25','2025/06/05','0',103)
- 
---Octavo Insert--
 
 Insert into Producto values ('INTV 110','TV BOX','1','1','10','29.19','2025/05/03','45',100)
- 
---Noveno Insert--
 
 Insert into Producto values ('INTV 110','TV BOX','1','1','15','29.19','2025/05/03','45',100)
- 
---Decimo Insert
 
 Insert into Producto values ('MXQ 4K','TV BOX','1','1','10','19.40','2025/04/12','25',102)
- 
---DecimoPrimero Insert
 
 Insert into Producto values ('RM-325 -2','CONTROL TV','1','1','6','9.99','2025/04/01','17',100)
- 
---DecimoSegundo Insert
 
 Insert into Producto values ('RM-325 -2','CONTROL TV','1','1','6','9.99','2025/04/05','17',100)
- 
---DecimoTercero Insert--
 
 Insert into Producto values ('TX9','TV BOX','1','2','5','18.00','2025/05/04','25',102)
  
 Select *from Producto 
 
-  
---INSERSION DE DATOS EN LAS TABLAS--
- 
---Marca--
 INSERT INTO Marca (nombreMarca) VALUES ('SPARTAN STORE')
  
 --Categoria--

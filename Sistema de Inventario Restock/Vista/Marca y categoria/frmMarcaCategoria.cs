@@ -59,8 +59,11 @@ namespace Vista.Marca_y_categoria
         {
             // Cerrar el formulario actual y abrir el formulario de agregar marca
             frmMarcaCategoria frm = new frmMarcaCategoria();
+            // Cerrar el formulario actual
             this.Close();
+            // Abrir el formulario de agregar marca
             frmMarca agregarCategoria = new frmMarca();
+            // Mostrar el formulario de agregar marca
             agregarCategoria.Show();
             
         }

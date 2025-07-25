@@ -38,7 +38,6 @@
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.pnlCorreoElectronico = new System.Windows.Forms.Panel();
             this.lblCorreoElectronico = new System.Windows.Forms.Label();
-            this.txtCorreoElectronico = new System.Windows.Forms.TextBox();
             this.pnlContacto = new System.Windows.Forms.Panel();
             this.lblContacto = new System.Windows.Forms.Label();
             this.txtContacto = new System.Windows.Forms.TextBox();
@@ -57,6 +56,7 @@
             this.pnlClienteID = new System.Windows.Forms.Panel();
             this.lblClienteID = new System.Windows.Forms.Label();
             this.txtClienteID = new System.Windows.Forms.TextBox();
+            this.txtCorreoElectronico = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.pnlNumeroTelefono.SuspendLayout();
             this.pnlDireccion.SuspendLayout();
@@ -191,16 +191,6 @@
             this.lblCorreoElectronico.Size = new System.Drawing.Size(168, 24);
             this.lblCorreoElectronico.TabIndex = 1;
             this.lblCorreoElectronico.Text = "Correo Electronico";
-            // 
-            // txtCorreoElectronico
-            // 
-            this.txtCorreoElectronico.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreoElectronico.Location = new System.Drawing.Point(733, 102);
-            this.txtCorreoElectronico.Margin = new System.Windows.Forms.Padding(4);
-            this.txtCorreoElectronico.Multiline = true;
-            this.txtCorreoElectronico.Name = "txtCorreoElectronico";
-            this.txtCorreoElectronico.Size = new System.Drawing.Size(245, 31);
-            this.txtCorreoElectronico.TabIndex = 38;
             // 
             // pnlContacto
             // 
@@ -395,6 +385,16 @@
             this.txtClienteID.Size = new System.Drawing.Size(407, 31);
             this.txtClienteID.TabIndex = 26;
             // 
+            // txtCorreoElectronico
+            // 
+            this.txtCorreoElectronico.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorreoElectronico.Location = new System.Drawing.Point(733, 102);
+            this.txtCorreoElectronico.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCorreoElectronico.Multiline = true;
+            this.txtCorreoElectronico.Name = "txtCorreoElectronico";
+            this.txtCorreoElectronico.Size = new System.Drawing.Size(245, 31);
+            this.txtCorreoElectronico.TabIndex = 38;
+            // 
             // frmAgregarClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -442,7 +442,6 @@
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.Panel pnlCorreoElectronico;
         private System.Windows.Forms.Label lblCorreoElectronico;
-        private System.Windows.Forms.TextBox txtCorreoElectronico;
         private System.Windows.Forms.Panel pnlContacto;
         private System.Windows.Forms.Label lblContacto;
         private System.Windows.Forms.TextBox txtContacto;
@@ -461,5 +460,6 @@
         private System.Windows.Forms.TextBox txtClienteID;
         private System.Windows.Forms.Panel pnlClienteID;
         private System.Windows.Forms.Label lblClienteID;
+        private System.Windows.Forms.TextBox txtCorreoElectronico;
     }
 }

@@ -20,18 +20,23 @@ namespace Vista.InicioSesion
 
         private void BTIniciasesion_Click(object sender, EventArgs e)
         {
+            // Validar las credenciales de inicio de sesión
             string usuarioCorrecto = "admin";
             string contrasenaCorrecta = "1234";
 
+            // Obtener los valores ingresados por el usuario
             string usuarioIngresado = TXBUsuario.Text.Trim();
             string contrasenaIngresada = TXBContrasenia.Text;
 
             if (usuarioIngresado == usuarioCorrecto && contrasenaIngresada == contrasenaCorrecta)
             {
-                
+                // Si las credenciales son correctas, abrir el formulario del dashboard y ocultar el formulario de inicio de sesión
                 frmDahsboard nuevoFormulario = new frmDahsboard();
+                // Crear una instancia del formulario de inicio y ocultarlo
                 frmInicio Cerrar = new frmInicio();
+                // Cerrar
                 this.Hide();
+                // Mostrar el nuevo formulario del dashboard
                 nuevoFormulario.Show();
                 
 

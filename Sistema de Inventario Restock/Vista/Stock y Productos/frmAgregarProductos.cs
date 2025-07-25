@@ -20,6 +20,7 @@ namespace Vista.Stock_y_Productos
 
         private void LimpiarCampos()
         {
+            //Limpiar los campos
             txtNombreProducto.Clear();
             txtPrecioVenta.Clear();
             dtmFechaPorducto.Value = DateTime.Now;
@@ -32,7 +33,7 @@ namespace Vista.Stock_y_Productos
         private void btnAgregar_Click(object sender, EventArgs e)
         {
 
-
+            // Validar campos antes de agregar el producto
             if (
     string.IsNullOrWhiteSpace(txtNombreProducto.Text) ||
     string.IsNullOrWhiteSpace(txtPrecioVenta.Text) ||
@@ -41,11 +42,13 @@ namespace Vista.Stock_y_Productos
     nupExistencias.Value < 0
 )
             {
+                // Mostrar un mensaje de error si los campos no están completos
                 MessageBox.Show("Debe llenar todos los campos principales", "ERROR");
                 return;
             }
             else
             {
+                // Crear una instancia de Producto y asignar los valores de los campos
                 Producto doc = new Producto();
                 doc.NombreProducto = txtNombreProducto.Text;
                 doc.IdCategoria = Convert.ToInt32(nupExistencias.Value);
@@ -56,6 +59,7 @@ namespace Vista.Stock_y_Productos
                 doc.IdProveedor = Convert.ToInt32(txtProveedor.Text);
                 doc.FechaIngreso = DateTime.Now;
                 doc.Existencia = Convert.ToInt32(nupExistencias.Value);
+                // Insertar el producto en la base de datos
                 doc.InsertarProductos();
                 LimpiarCampos();
                 MessageBox.Show("Producto agregado correctamente", "Éxito");

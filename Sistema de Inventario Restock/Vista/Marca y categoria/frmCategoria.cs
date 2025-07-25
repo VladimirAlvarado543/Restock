@@ -22,23 +22,26 @@ namespace Vista.Marca_y_categoria
         {
             if (string.IsNullOrEmpty(txtNombreCategoria.Text))
             {
-                
+                //  Mostrar un mensaje de error si el campo de nombre está vacío
                 MessageBox.Show("Debe llenar re.el campo de nomb", "ERROR");
                 return;
             }
-
+            // Verificar si el campo de detalles está vacío
             Categoria categoria = new Categoria
             {
+                // Asignar los valores de los campos a la entidad Categoria
                 NombreCategoria = txtNombreCategoria.Text,
                 Detalles = txtDetalles.Text
             };
             if (categoria.InsertarCategoria())
             {
+                // Si la inserción es exitosa, mostrar un mensaje de éxito y cerrar el formulario
                 MessageBox.Show("Categoría agregada correctamente", "Éxito");
                 this.Close();
             }
             else
             {
+                // Si la inserción falla, mostrar un mensaje de error
                 MessageBox.Show("Error al agregar la categoría.", "ERROR");
             }
         }
