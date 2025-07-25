@@ -135,7 +135,9 @@ detalles VARCHAR(MAX),
 cantidad INT NOT NULL,
 --Cantidad de producto vendido--
 fechaVenta DATE NOT NULL,
-FOREIGN KEY(idProducto) REFERENCES Producto(idProducto));
+idUsuario INT,
+FOREIGN KEY(idProducto) REFERENCES Producto(idProducto),
+FOREIGN KEY(idUsuario) REFERENCES Usuario(idUsuario));
 --llaves foraneas--
 GO
 
