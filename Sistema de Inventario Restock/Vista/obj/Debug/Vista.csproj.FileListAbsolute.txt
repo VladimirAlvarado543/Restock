@@ -57,3 +57,7 @@ C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vist
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.csproj.Up2Date
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.exe
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.pdb
+C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmMarcaCategoria.resources
+C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmCategoria.resources
+C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmMarca.resources
+C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.InicioSesion.frmInicio.resources

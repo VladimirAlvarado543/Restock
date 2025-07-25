@@ -40,7 +40,6 @@ namespace Vista.Clientes
         {
            frmAgregarClientes agregarClientes = new frmAgregarClientes();
             agregarClientes.Show();
-            this.Hide();
         }
 
         private void dgvClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)

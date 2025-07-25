@@ -76,7 +76,7 @@
             this.pnlPrincipal.Controls.Add(this.label3);
             this.pnlPrincipal.Controls.Add(this.lblApellido);
             this.pnlPrincipal.Controls.Add(this.lblNombre);
-            this.pnlPrincipal.Location = new System.Drawing.Point(30, 31);
+            this.pnlPrincipal.Location = new System.Drawing.Point(42, 23);
             this.pnlPrincipal.Name = "pnlPrincipal";
             this.pnlPrincipal.Size = new System.Drawing.Size(999, 618);
             this.pnlPrincipal.TabIndex = 1;
@@ -174,7 +174,7 @@
             this.dgvCargarUsuarios.Name = "dgvCargarUsuarios";
             this.dgvCargarUsuarios.RowHeadersWidth = 51;
             this.dgvCargarUsuarios.RowTemplate.Height = 24;
-            this.dgvCargarUsuarios.Size = new System.Drawing.Size(803, 297);
+            this.dgvCargarUsuarios.Size = new System.Drawing.Size(803, 249);
             this.dgvCargarUsuarios.TabIndex = 28;
             // 
             // txtContrasenia
@@ -290,7 +290,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaShell;
-            this.ClientSize = new System.Drawing.Size(1041, 676);
+            this.ClientSize = new System.Drawing.Size(1041, 585);
             this.Controls.Add(this.pnlPrincipal);
             this.Name = "frmGestionarUsuarios";
             this.Text = "frmGestionarUsuarios";

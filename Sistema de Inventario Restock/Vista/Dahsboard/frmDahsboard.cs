@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Vista.Clientes;
+using Vista.Marca_y_categoria;
 using Vista.Proveedores;
 using Vista.Stock_y_Productos;
 using Vista.Usuarios;
@@ -71,6 +72,11 @@ namespace Vista.Dahsboard
         private void btnAgregarProducto_Click(object sender, EventArgs e)
         {
             AbrirForm(new frmAgregarProductos());
+        }
+
+        private void btnCategoria_Marca_Click(object sender, EventArgs e)
+        {
+            AbrirForm(new frmMarcaCategoria());
         }
     }
 }

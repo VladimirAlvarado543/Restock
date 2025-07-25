@@ -64,6 +64,30 @@
     <Compile Include="Dahsboard\frmDahsboard.Designer.cs">
       <DependentUpon>frmDahsboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="InicioSesion\frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InicioSesion\frmInicio.Designer.cs">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marca y categoria\frmCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca y categoria\frmCategoria.Designer.cs">
+      <DependentUpon>frmCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marca y categoria\frmMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca y categoria\frmMarca.Designer.cs">
+      <DependentUpon>frmMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marca y categoria\frmMarcaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca y categoria\frmMarcaCategoria.Designer.cs">
+      <DependentUpon>frmMarcaCategoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proveedores\frmAgregarProveedor.cs">
@@ -105,6 +129,18 @@
     <EmbeddedResource Include="Dahsboard\frmDahsboard.resx">
       <DependentUpon>frmDahsboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InicioSesion\frmInicio.resx">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca y categoria\frmCategoria.resx">
+      <DependentUpon>frmCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca y categoria\frmMarca.resx">
+      <DependentUpon>frmMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca y categoria\frmMarcaCategoria.resx">
+      <DependentUpon>frmMarcaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -113,6 +149,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Proveedores\frmAgregarProveedor.resx">
       <DependentUpon>frmAgregarProveedor.cs</DependentUpon>
@@ -148,8 +185,9 @@
       <Name>Modelo</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Inicio de Sesion\" />
+    <None Include="Resources\logo opcion 2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

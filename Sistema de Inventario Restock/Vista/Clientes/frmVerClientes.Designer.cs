@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtBuscarID = new System.Windows.Forms.MaskedTextBox();
             this.btnAgregarClientes = new System.Windows.Forms.Button();
             this.dgvClientes = new System.Windows.Forms.DataGridView();
             this.pnlBuscarDetalles = new System.Windows.Forms.Panel();
@@ -39,7 +40,6 @@
             this.pnlBuscarNombre = new System.Windows.Forms.Panel();
             this.lblBuscarNombre = new System.Windows.Forms.Label();
             this.txtBuscarNombre = new System.Windows.Forms.TextBox();
-            this.txtBuscarID = new System.Windows.Forms.MaskedTextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             this.pnlBuscarDetalles.SuspendLayout();
@@ -57,16 +57,27 @@
             this.panel1.Controls.Add(this.txtBuscarEmpresa);
             this.panel1.Controls.Add(this.pnlBuscarNombre);
             this.panel1.Controls.Add(this.txtBuscarNombre);
-            this.panel1.Location = new System.Drawing.Point(56, 50);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1568, 698);
+            this.panel1.Size = new System.Drawing.Size(1134, 698);
             this.panel1.TabIndex = 0;
+            // 
+            // txtBuscarID
+            // 
+            this.txtBuscarID.Location = new System.Drawing.Point(871, 28);
+            this.txtBuscarID.Mask = "99999";
+            this.txtBuscarID.Name = "txtBuscarID";
+            this.txtBuscarID.Size = new System.Drawing.Size(146, 22);
+            this.txtBuscarID.TabIndex = 22;
+            this.txtBuscarID.ValidatingType = typeof(int);
+            this.txtBuscarID.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtBuscarID_MaskInputRejected);
+            this.txtBuscarID.TextChanged += new System.EventHandler(this.txtBuscarID_TextChanged);
             // 
             // btnAgregarClientes
             // 
             this.btnAgregarClientes.BackColor = System.Drawing.Color.OrangeRed;
-            this.btnAgregarClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarClientes.Location = new System.Drawing.Point(839, 182);
+            this.btnAgregarClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarClientes.Location = new System.Drawing.Point(669, 163);
             this.btnAgregarClientes.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregarClientes.Name = "btnAgregarClientes";
             this.btnAgregarClientes.Size = new System.Drawing.Size(237, 76);
@@ -83,7 +94,7 @@
             this.dgvClientes.ReadOnly = true;
             this.dgvClientes.RowHeadersWidth = 51;
             this.dgvClientes.RowTemplate.Height = 24;
-            this.dgvClientes.Size = new System.Drawing.Size(1384, 446);
+            this.dgvClientes.Size = new System.Drawing.Size(1020, 207);
             this.dgvClientes.TabIndex = 20;
             this.dgvClientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClientes_CellContentClick);
             // 
@@ -105,15 +116,15 @@
             this.lblBuscarDetalles.Location = new System.Drawing.Point(46, 28);
             this.lblBuscarDetalles.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuscarDetalles.Name = "lblBuscarDetalles";
-            this.lblBuscarDetalles.Size = new System.Drawing.Size(180, 24);
+            this.lblBuscarDetalles.Size = new System.Drawing.Size(182, 24);
             this.lblBuscarDetalles.TabIndex = 1;
-            this.lblBuscarDetalles.Text = "Buscar por Contacto";
+            this.lblBuscarDetalles.Text = "Buscar por Empresa";
             // 
             // pnlBuscarID
             // 
             this.pnlBuscarID.BackColor = System.Drawing.Color.LightSalmon;
             this.pnlBuscarID.Controls.Add(this.lblBuscarID);
-            this.pnlBuscarID.Location = new System.Drawing.Point(839, 7);
+            this.pnlBuscarID.Location = new System.Drawing.Point(588, 4);
             this.pnlBuscarID.Margin = new System.Windows.Forms.Padding(4);
             this.pnlBuscarID.Name = "pnlBuscarID";
             this.pnlBuscarID.Size = new System.Drawing.Size(267, 75);
@@ -138,7 +149,7 @@
             this.txtBuscarEmpresa.Margin = new System.Windows.Forms.Padding(4);
             this.txtBuscarEmpresa.Multiline = true;
             this.txtBuscarEmpresa.Name = "txtBuscarEmpresa";
-            this.txtBuscarEmpresa.Size = new System.Drawing.Size(434, 31);
+            this.txtBuscarEmpresa.Size = new System.Drawing.Size(245, 31);
             this.txtBuscarEmpresa.TabIndex = 17;
             this.txtBuscarEmpresa.TextChanged += new System.EventHandler(this.txtBuscarDetalles_TextChanged);
             // 
@@ -171,26 +182,15 @@
             this.txtBuscarNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtBuscarNombre.Multiline = true;
             this.txtBuscarNombre.Name = "txtBuscarNombre";
-            this.txtBuscarNombre.Size = new System.Drawing.Size(434, 31);
+            this.txtBuscarNombre.Size = new System.Drawing.Size(209, 31);
             this.txtBuscarNombre.TabIndex = 12;
             this.txtBuscarNombre.TextChanged += new System.EventHandler(this.txtBuscarNombre_TextChanged);
-            // 
-            // txtBuscarID
-            // 
-            this.txtBuscarID.Location = new System.Drawing.Point(1122, 31);
-            this.txtBuscarID.Mask = "99999";
-            this.txtBuscarID.Name = "txtBuscarID";
-            this.txtBuscarID.Size = new System.Drawing.Size(193, 22);
-            this.txtBuscarID.TabIndex = 22;
-            this.txtBuscarID.ValidatingType = typeof(int);
-            this.txtBuscarID.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtBuscarID_MaskInputRejected);
-            this.txtBuscarID.TextChanged += new System.EventHandler(this.txtBuscarID_TextChanged);
             // 
             // frmVerClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1636, 847);
+            this.ClientSize = new System.Drawing.Size(1041, 585);
             this.Controls.Add(this.panel1);
             this.Name = "frmVerClientes";
             this.Text = "frmVerClientes";

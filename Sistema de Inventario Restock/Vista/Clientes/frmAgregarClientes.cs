@@ -89,7 +89,9 @@ string.IsNullOrWhiteSpace(txtDireccion.Text) || string.IsNullOrWhiteSpace(mtxtNu
 
         private frmVerClientes formularioPrincipal;
 
-        
-        
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

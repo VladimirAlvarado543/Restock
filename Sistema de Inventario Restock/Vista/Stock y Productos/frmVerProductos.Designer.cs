@@ -44,23 +44,25 @@
             this.dgvVerProductos.Name = "dgvVerProductos";
             this.dgvVerProductos.RowHeadersWidth = 51;
             this.dgvVerProductos.RowTemplate.Height = 24;
-            this.dgvVerProductos.Size = new System.Drawing.Size(1046, 459);
+            this.dgvVerProductos.Size = new System.Drawing.Size(969, 317);
             this.dgvVerProductos.TabIndex = 0;
             // 
             // txtBuscarId
             // 
-            this.txtBuscarId.Location = new System.Drawing.Point(804, 146);
+            this.txtBuscarId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscarId.Location = new System.Drawing.Point(755, 146);
             this.txtBuscarId.Mask = "0000";
             this.txtBuscarId.Name = "txtBuscarId";
-            this.txtBuscarId.Size = new System.Drawing.Size(173, 22);
+            this.txtBuscarId.Size = new System.Drawing.Size(173, 24);
             this.txtBuscarId.TabIndex = 11;
             this.txtBuscarId.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtBuscarid_MaskInputRejected);
             // 
             // btnAgregarProductos
             // 
             this.btnAgregarProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnAgregarProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarProductos.ForeColor = System.Drawing.Color.Black;
-            this.btnAgregarProductos.Location = new System.Drawing.Point(460, 12);
+            this.btnAgregarProductos.Location = new System.Drawing.Point(411, 12);
             this.btnAgregarProductos.Name = "btnAgregarProductos";
             this.btnAgregarProductos.Size = new System.Drawing.Size(253, 79);
             this.btnAgregarProductos.TabIndex = 10;
@@ -72,9 +74,10 @@
             // 
             this.lblBuscarId.AutoSize = true;
             this.lblBuscarId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblBuscarId.Location = new System.Drawing.Point(735, 149);
+            this.lblBuscarId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBuscarId.Location = new System.Drawing.Point(679, 152);
             this.lblBuscarId.Name = "lblBuscarId";
-            this.lblBuscarId.Size = new System.Drawing.Size(63, 16);
+            this.lblBuscarId.Size = new System.Drawing.Size(70, 18);
             this.lblBuscarId.TabIndex = 9;
             this.lblBuscarId.Text = "Buscar id";
             // 
@@ -82,17 +85,19 @@
             // 
             this.lblBuscarNombre.AutoSize = true;
             this.lblBuscarNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblBuscarNombre.Location = new System.Drawing.Point(141, 152);
+            this.lblBuscarNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBuscarNombre.Location = new System.Drawing.Point(78, 152);
             this.lblBuscarNombre.Name = "lblBuscarNombre";
-            this.lblBuscarNombre.Size = new System.Drawing.Size(125, 16);
+            this.lblBuscarNombre.Size = new System.Drawing.Size(141, 18);
             this.lblBuscarNombre.TabIndex = 8;
             this.lblBuscarNombre.Text = "Buscar Por Nombre";
             // 
             // txtBuscarNombre
             // 
-            this.txtBuscarNombre.Location = new System.Drawing.Point(289, 146);
+            this.txtBuscarNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscarNombre.Location = new System.Drawing.Point(240, 146);
             this.txtBuscarNombre.Name = "txtBuscarNombre";
-            this.txtBuscarNombre.Size = new System.Drawing.Size(330, 22);
+            this.txtBuscarNombre.Size = new System.Drawing.Size(330, 24);
             this.txtBuscarNombre.TabIndex = 7;
             this.txtBuscarNombre.TextChanged += new System.EventHandler(this.txtBuscarNombre_TextChanged);
             // 
@@ -100,7 +105,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1112, 701);
+            this.BackColor = System.Drawing.Color.SeaShell;
+            this.ClientSize = new System.Drawing.Size(1041, 585);
             this.Controls.Add(this.txtBuscarId);
             this.Controls.Add(this.btnAgregarProductos);
             this.Controls.Add(this.lblBuscarId);

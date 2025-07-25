@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Vista.Clientes;
 using Vista.Dahsboard;
+using Vista.InicioSesion;
 using Vista.Usuarios;
 
 namespace Vista
@@ -19,7 +20,7 @@ namespace Vista
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDahsboard());
+            Application.Run(new frmInicio());
         }
     }
 }

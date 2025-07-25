@@ -24,7 +24,6 @@ namespace Vista.Stock_y_Productos
             txtPrecioVenta.Clear();
             dtmFechaPorducto.Value = DateTime.Now;
             txtProveedor.Clear();
-            nupExistencias.Value = 0;
             txtDetalles.Clear();
             txtPrecioCompra.Clear();
             txtMarca.Clear();
@@ -58,11 +57,17 @@ namespace Vista.Stock_y_Productos
                 doc.FechaIngreso = DateTime.Now;
                 doc.Existencia = Convert.ToInt32(nupExistencias.Value);
                 LimpiarCampos();
-              
+                MessageBox.Show("Producto agregado correctamente", "Éxito");
             }
+        }
 
-        
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            LimpiarCampos();
+        }
 
+        private void lblCategoria_Click(object sender, EventArgs e)
+        {
 
         }
     }
