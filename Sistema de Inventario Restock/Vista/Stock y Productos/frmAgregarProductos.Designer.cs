@@ -189,6 +189,7 @@
             // 
             // dtmFechaPorducto
             // 
+            this.dtmFechaPorducto.Enabled = false;
             this.dtmFechaPorducto.Location = new System.Drawing.Point(237, 370);
             this.dtmFechaPorducto.Name = "dtmFechaPorducto";
             this.dtmFechaPorducto.Size = new System.Drawing.Size(249, 22);
@@ -360,6 +361,7 @@
             this.Name = "frmAgregarProductos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAgregarProductos";
+            this.Load += new System.EventHandler(this.frmAgregarProductos_Load);
             this.pnlPrincipal.ResumeLayout(false);
             this.pnlPrincipal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVerCategorias)).EndInit();

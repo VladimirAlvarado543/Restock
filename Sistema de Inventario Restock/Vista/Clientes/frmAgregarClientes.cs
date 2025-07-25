@@ -61,8 +61,6 @@ string.IsNullOrWhiteSpace(txtDireccion.Text) || string.IsNullOrWhiteSpace(mtxtNu
             {
                 // Si la inserción es exitosa, mostrar un mensaje de éxito y actualizar la lista de clientes
                 MessageBox.Show("Cliente agregado correctamente", "Éxito");
-                formularioPrincipal.MostrarClientes();
-                formularioPrincipal.Show();
                 LimpiarCampos();
                 this.Close();
             }

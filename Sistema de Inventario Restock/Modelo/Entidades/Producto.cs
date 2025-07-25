@@ -85,7 +85,7 @@ namespace Modelo.Entidades
             SqlConnection conexion = ConexionDB.Conectar();
             // Realizar la consulta
             string consultaQueryInsertar = " insert into Producto(nombreProducto, detalles, idCategoria, idMarca, existencia, precioCompra, fechaIngreso, precioVenta, idProveedor)" +
-                " values (@NombreProducto,@Detalles,@IdDocumento,@IdMarca,@IdCategoria,@Existencia,@PrecioCompra,@FechaIngreso,@PrecioVenta,@IdProveedor);";
+                " values (@NombreProducto,@Detalles,@IdCategoria,@idMarca,@Existencia,@PrecioCompra,@FechaIngreso,@PrecioVenta,@IdProveedor);";
             // Se crea un comando SQL que se usará para ejecutar la consulta
             SqlCommand insertar = new SqlCommand(consultaQueryInsertar, conexion);
             // Agregar los parámetros necesarios para la consulta
@@ -96,8 +96,8 @@ namespace Modelo.Entidades
             insertar.Parameters.AddWithValue("@Existencia", existencia);
             insertar.Parameters.AddWithValue("@PrecioCompra", precioCompra);
             insertar.Parameters.AddWithValue("@FechaIngreso", fechaIngreso);
-            insertar.Parameters.AddWithValue("@NumeroTelefono", precioVenta);
-            insertar.Parameters.AddWithValue("@NumeroTelefono", idProveedor);
+            insertar.Parameters.AddWithValue("@PrecioVenta", precioVenta);
+            insertar.Parameters.AddWithValue("@IdProveedor", idProveedor);
 
             if (insertar.ExecuteNonQuery() > 0)
             {

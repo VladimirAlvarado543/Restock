@@ -46,6 +46,10 @@ C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vist
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Clientes.frmAgregarClientes.resources
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Clientes.frmVerClientes.resources
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Dahsboard.frmDahsboard.resources
+C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.InicioSesion.frmInicio.resources
+C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmCategoria.resources
+C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmMarca.resources
+C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmMarcaCategoria.resources
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Properties.Resources.resources
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Proveedores.frmAgregarProveedor.resources
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Proveedores.frmVerProveedores.resources
@@ -57,7 +61,3 @@ C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vist
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.csproj.Up2Date
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.exe
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.pdb
-C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmMarcaCategoria.resources
-C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmCategoria.resources
-C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmMarca.resources
-C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.InicioSesion.frmInicio.resources

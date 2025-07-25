@@ -20,9 +20,10 @@ namespace Vista.Marca_y_categoria
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtNombreCategoria.Text) || string.IsNullOrEmpty(txtDetalles.Text))
+            if (string.IsNullOrEmpty(txtNombreCategoria.Text))
             {
-                MessageBox.Show("Debe llenar todos los campos.", "ERROR");
+                
+                MessageBox.Show("Debe llenar re.el campo de nomb", "ERROR");
                 return;
             }
 

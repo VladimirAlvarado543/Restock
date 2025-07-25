@@ -56,6 +56,7 @@ namespace Vista.Stock_y_Productos
                 doc.IdProveedor = Convert.ToInt32(txtProveedor.Text);
                 doc.FechaIngreso = DateTime.Now;
                 doc.Existencia = Convert.ToInt32(nupExistencias.Value);
+                doc.InsertarProductos();
                 LimpiarCampos();
                 MessageBox.Show("Producto agregado correctamente", "Éxito");
             }
@@ -69,6 +70,10 @@ namespace Vista.Stock_y_Productos
         private void lblCategoria_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void frmAgregarProductos_Load(object sender, EventArgs e)
+        {
         }
     }
 }

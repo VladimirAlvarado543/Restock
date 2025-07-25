@@ -185,7 +185,9 @@
       <Name>Modelo</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\logo opcion 21.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo opcion 2.png" />
   </ItemGroup>

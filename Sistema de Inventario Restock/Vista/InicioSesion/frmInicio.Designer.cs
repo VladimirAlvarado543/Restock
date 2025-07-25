@@ -35,11 +35,11 @@
             this.BTIniciasesion = new System.Windows.Forms.Button();
             this.TXBContrasenia = new System.Windows.Forms.TextBox();
             this.TXBUsuario = new System.Windows.Forms.TextBox();
+            this.PBLogo = new System.Windows.Forms.PictureBox();
             this.LBUsuario = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.LBContrasena = new System.Windows.Forms.Label();
             this.LBBienvenido = new System.Windows.Forms.Label();
-            this.PBLogo = new System.Windows.Forms.PictureBox();
             this.PNIniciosesion.SuspendLayout();
             this.GBBienvenido.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBLogo)).BeginInit();
@@ -122,6 +122,17 @@
             this.TXBUsuario.TabIndex = 2;
             this.TXBUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // PBLogo
+            // 
+            this.PBLogo.Image = global::Vista.Properties.Resources.logo_opcion_2;
+            this.PBLogo.InitialImage = global::Vista.Properties.Resources.logo_opcion_21;
+            this.PBLogo.Location = new System.Drawing.Point(18, 22);
+            this.PBLogo.Name = "PBLogo";
+            this.PBLogo.Size = new System.Drawing.Size(136, 57);
+            this.PBLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PBLogo.TabIndex = 6;
+            this.PBLogo.TabStop = false;
+            // 
             // LBUsuario
             // 
             this.LBUsuario.AutoSize = true;
@@ -160,15 +171,6 @@
             this.LBBienvenido.TabIndex = 0;
             this.LBBienvenido.Text = "Bienvenido";
             // 
-            // PBLogo
-            // 
-            this.PBLogo.Location = new System.Drawing.Point(18, 22);
-            this.PBLogo.Name = "PBLogo";
-            this.PBLogo.Size = new System.Drawing.Size(136, 57);
-            this.PBLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PBLogo.TabIndex = 6;
-            this.PBLogo.TabStop = false;
-            // 
             // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -176,6 +178,7 @@
             this.ClientSize = new System.Drawing.Size(1082, 688);
             this.Controls.Add(this.PNIniciosesion);
             this.Controls.Add(this.GBBienvenido);
+            this.MaximizeBox = false;
             this.Name = "frmInicio";
             this.Text = "frmInicio";
             this.PNIniciosesion.ResumeLayout(false);

@@ -215,13 +215,17 @@
             // 
             // pbLogo
             // 
+            this.pbLogo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pbLogo.Image = global::Vista.Properties.Resources.logo_opcion_21;
             this.pbLogo.ImageLocation = "cen";
             this.pbLogo.InitialImage = global::Vista.Properties.Resources.logo_opcion_2;
-            this.pbLogo.Location = new System.Drawing.Point(146, 88);
+            this.pbLogo.Location = new System.Drawing.Point(0, 0);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(866, 404);
+            this.pbLogo.Size = new System.Drawing.Size(1097, 608);
+            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 0;
             this.pbLogo.TabStop = false;
+            this.pbLogo.Click += new System.EventHandler(this.pbLogo_Click);
             // 
             // frmDahsboard
             // 
@@ -236,6 +240,7 @@
             this.Name = "frmDahsboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmDahsboard";
+            this.Load += new System.EventHandler(this.frmDahsboard_Load);
             this.pnlBarraLateral.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.pnlInventario.ResumeLayout(false);

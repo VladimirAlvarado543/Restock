@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Vista.Clientes;
+using Vista.InicioSesion;
 using Vista.Marca_y_categoria;
 using Vista.Proveedores;
 using Vista.Stock_y_Productos;
@@ -77,6 +78,16 @@ namespace Vista.Dahsboard
         private void btnCategoria_Marca_Click(object sender, EventArgs e)
         {
             AbrirForm(new frmMarcaCategoria());
+        }
+
+        private void frmDahsboard_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void pbLogo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
