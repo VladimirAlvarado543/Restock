@@ -29,9 +29,16 @@
         private void InitializeComponent()
         {
             this.pnlPrincipal = new System.Windows.Forms.Panel();
+            this.txtProveedor = new System.Windows.Forms.TextBox();
+            this.txtPrecioVenta = new System.Windows.Forms.MaskedTextBox();
+            this.lblIdProveedor = new System.Windows.Forms.Label();
+            this.lblPrecioVenta = new System.Windows.Forms.Label();
+            this.dtmFechaPorducto = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
+            this.nupExistencias = new System.Windows.Forms.NumericUpDown();
             this.lblExistencias = new System.Windows.Forms.Label();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.txtContrasena = new System.Windows.Forms.TextBox();
+            this.txtMarca = new System.Windows.Forms.TextBox();
             this.lblMarca = new System.Windows.Forms.Label();
             this.txtPrecioCompra = new System.Windows.Forms.MaskedTextBox();
             this.lblCategoria = new System.Windows.Forms.Label();
@@ -42,13 +49,6 @@
             this.txtNombreProducto = new System.Windows.Forms.TextBox();
             this.lblDetalles = new System.Windows.Forms.Label();
             this.lblNombreProducto = new System.Windows.Forms.Label();
-            this.nupExistencias = new System.Windows.Forms.NumericUpDown();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.lblPrecioVenta = new System.Windows.Forms.Label();
-            this.lblIdProveedor = new System.Windows.Forms.Label();
-            this.txtPrecioVenta = new System.Windows.Forms.MaskedTextBox();
-            this.txtProveedor = new System.Windows.Forms.TextBox();
             this.pnlPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nupExistencias)).BeginInit();
             this.SuspendLayout();
@@ -59,12 +59,12 @@
             this.pnlPrincipal.Controls.Add(this.txtPrecioVenta);
             this.pnlPrincipal.Controls.Add(this.lblIdProveedor);
             this.pnlPrincipal.Controls.Add(this.lblPrecioVenta);
-            this.pnlPrincipal.Controls.Add(this.dateTimePicker1);
+            this.pnlPrincipal.Controls.Add(this.dtmFechaPorducto);
             this.pnlPrincipal.Controls.Add(this.label1);
             this.pnlPrincipal.Controls.Add(this.nupExistencias);
             this.pnlPrincipal.Controls.Add(this.lblExistencias);
             this.pnlPrincipal.Controls.Add(this.btnAgregar);
-            this.pnlPrincipal.Controls.Add(this.txtContrasena);
+            this.pnlPrincipal.Controls.Add(this.txtMarca);
             this.pnlPrincipal.Controls.Add(this.lblMarca);
             this.pnlPrincipal.Controls.Add(this.txtPrecioCompra);
             this.pnlPrincipal.Controls.Add(this.lblCategoria);
@@ -79,6 +79,78 @@
             this.pnlPrincipal.Name = "pnlPrincipal";
             this.pnlPrincipal.Size = new System.Drawing.Size(1008, 564);
             this.pnlPrincipal.TabIndex = 0;
+            // 
+            // txtProveedor
+            // 
+            this.txtProveedor.Location = new System.Drawing.Point(240, 446);
+            this.txtProveedor.Name = "txtProveedor";
+            this.txtProveedor.Size = new System.Drawing.Size(100, 22);
+            this.txtProveedor.TabIndex = 51;
+            // 
+            // txtPrecioVenta
+            // 
+            this.txtPrecioVenta.Location = new System.Drawing.Point(240, 412);
+            this.txtPrecioVenta.Mask = "99999.00";
+            this.txtPrecioVenta.Name = "txtPrecioVenta";
+            this.txtPrecioVenta.Size = new System.Drawing.Size(100, 22);
+            this.txtPrecioVenta.TabIndex = 50;
+            this.txtPrecioVenta.ValidatingType = typeof(int);
+            // 
+            // lblIdProveedor
+            // 
+            this.lblIdProveedor.AutoSize = true;
+            this.lblIdProveedor.Location = new System.Drawing.Point(129, 446);
+            this.lblIdProveedor.Name = "lblIdProveedor";
+            this.lblIdProveedor.Size = new System.Drawing.Size(82, 16);
+            this.lblIdProveedor.TabIndex = 49;
+            this.lblIdProveedor.Text = "idProveedor";
+            // 
+            // lblPrecioVenta
+            // 
+            this.lblPrecioVenta.AutoSize = true;
+            this.lblPrecioVenta.Location = new System.Drawing.Point(129, 412);
+            this.lblPrecioVenta.Name = "lblPrecioVenta";
+            this.lblPrecioVenta.Size = new System.Drawing.Size(103, 16);
+            this.lblPrecioVenta.TabIndex = 48;
+            this.lblPrecioVenta.Text = "Precio de Venta";
+            // 
+            // dtmFechaPorducto
+            // 
+            this.dtmFechaPorducto.Location = new System.Drawing.Point(325, 370);
+            this.dtmFechaPorducto.Name = "dtmFechaPorducto";
+            this.dtmFechaPorducto.Size = new System.Drawing.Size(249, 22);
+            this.dtmFechaPorducto.TabIndex = 47;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(129, 370);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(190, 16);
+            this.label1.TabIndex = 46;
+            this.label1.Text = "Fecha de ingreso del producto";
+            // 
+            // nupExistencias
+            // 
+            this.nupExistencias.Location = new System.Drawing.Point(220, 300);
+            this.nupExistencias.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.nupExistencias.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nupExistencias.Name = "nupExistencias";
+            this.nupExistencias.Size = new System.Drawing.Size(120, 22);
+            this.nupExistencias.TabIndex = 45;
+            this.nupExistencias.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // lblExistencias
             // 
@@ -99,12 +171,12 @@
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
-            // txtContrasena
+            // txtMarca
             // 
-            this.txtContrasena.Location = new System.Drawing.Point(220, 261);
-            this.txtContrasena.Name = "txtContrasena";
-            this.txtContrasena.Size = new System.Drawing.Size(262, 22);
-            this.txtContrasena.TabIndex = 41;
+            this.txtMarca.Location = new System.Drawing.Point(220, 261);
+            this.txtMarca.Name = "txtMarca";
+            this.txtMarca.Size = new System.Drawing.Size(262, 22);
+            this.txtMarca.TabIndex = 41;
             // 
             // lblMarca
             // 
@@ -191,78 +263,6 @@
             this.lblNombreProducto.TabIndex = 31;
             this.lblNombreProducto.Text = "Nombre del Producto";
             // 
-            // nupExistencias
-            // 
-            this.nupExistencias.Location = new System.Drawing.Point(220, 300);
-            this.nupExistencias.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.nupExistencias.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.nupExistencias.Name = "nupExistencias";
-            this.nupExistencias.Size = new System.Drawing.Size(120, 22);
-            this.nupExistencias.TabIndex = 45;
-            this.nupExistencias.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(129, 370);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(190, 16);
-            this.label1.TabIndex = 46;
-            this.label1.Text = "Fecha de ingreso del producto";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(325, 370);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(249, 22);
-            this.dateTimePicker1.TabIndex = 47;
-            // 
-            // lblPrecioVenta
-            // 
-            this.lblPrecioVenta.AutoSize = true;
-            this.lblPrecioVenta.Location = new System.Drawing.Point(129, 412);
-            this.lblPrecioVenta.Name = "lblPrecioVenta";
-            this.lblPrecioVenta.Size = new System.Drawing.Size(103, 16);
-            this.lblPrecioVenta.TabIndex = 48;
-            this.lblPrecioVenta.Text = "Precio de Venta";
-            // 
-            // lblIdProveedor
-            // 
-            this.lblIdProveedor.AutoSize = true;
-            this.lblIdProveedor.Location = new System.Drawing.Point(129, 446);
-            this.lblIdProveedor.Name = "lblIdProveedor";
-            this.lblIdProveedor.Size = new System.Drawing.Size(82, 16);
-            this.lblIdProveedor.TabIndex = 49;
-            this.lblIdProveedor.Text = "idProveedor";
-            // 
-            // txtPrecioVenta
-            // 
-            this.txtPrecioVenta.Location = new System.Drawing.Point(240, 412);
-            this.txtPrecioVenta.Mask = "99999.00";
-            this.txtPrecioVenta.Name = "txtPrecioVenta";
-            this.txtPrecioVenta.Size = new System.Drawing.Size(100, 22);
-            this.txtPrecioVenta.TabIndex = 50;
-            this.txtPrecioVenta.ValidatingType = typeof(int);
-            // 
-            // txtProveedor
-            // 
-            this.txtProveedor.Location = new System.Drawing.Point(240, 446);
-            this.txtProveedor.Name = "txtProveedor";
-            this.txtProveedor.Size = new System.Drawing.Size(100, 22);
-            this.txtProveedor.TabIndex = 51;
-            // 
             // frmAgregarProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -282,7 +282,7 @@
 
         private System.Windows.Forms.Panel pnlPrincipal;
         private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.TextBox txtContrasena;
+        private System.Windows.Forms.TextBox txtMarca;
         private System.Windows.Forms.Label lblMarca;
         private System.Windows.Forms.MaskedTextBox txtPrecioCompra;
         private System.Windows.Forms.Label lblCategoria;
@@ -295,7 +295,7 @@
         private System.Windows.Forms.TextBox txtContacto;
         private System.Windows.Forms.Label lblExistencias;
         private System.Windows.Forms.NumericUpDown nupExistencias;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtmFechaPorducto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtProveedor;
         private System.Windows.Forms.MaskedTextBox txtPrecioVenta;

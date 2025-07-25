@@ -16,7 +16,7 @@ namespace Modelo.Entidades
         private string IDDocumento;
         private string Contacto1;
         private string Contacto2;
-        private string WhatsApp;
+        private string NumeroTelefono;
         private string PaginaWeb;
         private string Nombre;
         private string nombreempresa;
@@ -29,7 +29,7 @@ namespace Modelo.Entidades
         public string IDDocumento1 { get => IDDocumento; set => IDDocumento = value; }
         public string Contacto11 { get => Contacto1; set => Contacto1 = value; }
         public string Contacto21 { get => Contacto2; set => Contacto2 = value; }
-        public string WhatsApp1 { get => WhatsApp; set => WhatsApp = value; }
+        public string NumeroTelefono1 { get => NumeroTelefono; set => NumeroTelefono = value; }
         public string PaginaWeb1 { get => PaginaWeb; set => PaginaWeb = value; }
         public string Nombre1 { get => Nombre; set => Nombre = value; }
         public string Nombreempresa { get => nombreempresa; set => nombreempresa = value; }
@@ -59,7 +59,7 @@ namespace Modelo.Entidades
             cmd.Parameters.AddWithValue("@IdDocumento", IDDocumento1);
             cmd.Parameters.AddWithValue("@CorreoElectronico", CorreoElectronico1);
             cmd.Parameters.AddWithValue("@Direccion", Direccion1);
-            cmd.Parameters.AddWithValue("@NumeroTelefono", WhatsApp1);
+            cmd.Parameters.AddWithValue("@NumeroTelefono", NumeroTelefono);
             cmd.Parameters.AddWithValue("@PaginaWeb", PaginaWeb);
             cmd.Parameters.AddWithValue("@Contacto1", Contacto11);
             cmd.Parameters.AddWithValue("@Contacto2", Contacto21);

@@ -67,5 +67,10 @@ namespace Vista.Dahsboard
         {
             AbrirForm(new frmVerProveedores());
         }
+
+        private void btnAgregarProducto_Click(object sender, EventArgs e)
+        {
+            AbrirForm(new frmAgregarProductos());
+        }
     }
 }

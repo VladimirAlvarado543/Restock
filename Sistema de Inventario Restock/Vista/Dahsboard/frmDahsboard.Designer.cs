@@ -182,6 +182,7 @@
             this.btnAgregarProducto.TabIndex = 1;
             this.btnAgregarProducto.Text = "Añadir Prducto";
             this.btnAgregarProducto.UseVisualStyleBackColor = true;
+            this.btnAgregarProducto.Click += new System.EventHandler(this.btnAgregarProducto_Click);
             // 
             // btnVerInventario
             // 

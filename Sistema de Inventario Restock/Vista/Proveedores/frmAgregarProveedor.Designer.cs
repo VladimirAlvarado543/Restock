@@ -33,8 +33,7 @@
             this.lblNombre = new System.Windows.Forms.Label();
             this.txtProductos = new System.Windows.Forms.TextBox();
             this.lblProductos = new System.Windows.Forms.Label();
-            this.txtWhatsApp = new System.Windows.Forms.MaskedTextBox();
-            this.btnEditFile = new System.Windows.Forms.Button();
+            this.txtNumeroTelefono = new System.Windows.Forms.MaskedTextBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.lblPaginaweb = new System.Windows.Forms.Label();
             this.txtPaginaWeb = new System.Windows.Forms.TextBox();
@@ -45,10 +44,9 @@
             this.lblContacto1 = new System.Windows.Forms.Label();
             this.txtDetalles = new System.Windows.Forms.TextBox();
             this.lblDetalles = new System.Windows.Forms.Label();
-            this.btnImprimir = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtContacto2 = new System.Windows.Forms.TextBox();
-            this.lblWhatsApp = new System.Windows.Forms.Label();
+            this.lblNumeroTelefono = new System.Windows.Forms.Label();
             this.txtContacto1 = new System.Windows.Forms.TextBox();
             this.lblDireccion = new System.Windows.Forms.Label();
             this.txtIDDocumento = new System.Windows.Forms.TextBox();
@@ -68,8 +66,7 @@
             this.gpProvedores.Controls.Add(this.lblNombre);
             this.gpProvedores.Controls.Add(this.txtProductos);
             this.gpProvedores.Controls.Add(this.lblProductos);
-            this.gpProvedores.Controls.Add(this.txtWhatsApp);
-            this.gpProvedores.Controls.Add(this.btnEditFile);
+            this.gpProvedores.Controls.Add(this.txtNumeroTelefono);
             this.gpProvedores.Controls.Add(this.btnGuardar);
             this.gpProvedores.Controls.Add(this.lblPaginaweb);
             this.gpProvedores.Controls.Add(this.txtPaginaWeb);
@@ -80,10 +77,9 @@
             this.gpProvedores.Controls.Add(this.lblContacto1);
             this.gpProvedores.Controls.Add(this.txtDetalles);
             this.gpProvedores.Controls.Add(this.lblDetalles);
-            this.gpProvedores.Controls.Add(this.btnImprimir);
             this.gpProvedores.Controls.Add(this.pictureBox1);
             this.gpProvedores.Controls.Add(this.txtContacto2);
-            this.gpProvedores.Controls.Add(this.lblWhatsApp);
+            this.gpProvedores.Controls.Add(this.lblNumeroTelefono);
             this.gpProvedores.Controls.Add(this.txtContacto1);
             this.gpProvedores.Controls.Add(this.lblDireccion);
             this.gpProvedores.Controls.Add(this.txtIDDocumento);
@@ -93,14 +89,15 @@
             this.gpProvedores.Controls.Add(this.txtIDPRoveevedor);
             this.gpProvedores.Controls.Add(this.lblIDProveedor);
             this.gpProvedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpProvedores.Location = new System.Drawing.Point(25, 13);
+            this.gpProvedores.Location = new System.Drawing.Point(10, 13);
             this.gpProvedores.Margin = new System.Windows.Forms.Padding(4);
             this.gpProvedores.Name = "gpProvedores";
             this.gpProvedores.Padding = new System.Windows.Forms.Padding(4);
-            this.gpProvedores.Size = new System.Drawing.Size(1247, 560);
+            this.gpProvedores.Size = new System.Drawing.Size(1075, 560);
             this.gpProvedores.TabIndex = 2;
             this.gpProvedores.TabStop = false;
             this.gpProvedores.Text = "Agregar proveedores";
+            this.gpProvedores.Enter += new System.EventHandler(this.gpProvedores_Enter);
             // 
             // txtNombre
             // 
@@ -114,7 +111,7 @@
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblNombre.Location = new System.Drawing.Point(143, 64);
+            this.lblNombre.Location = new System.Drawing.Point(177, 67);
             this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(69, 17);
@@ -123,48 +120,41 @@
             // 
             // txtProductos
             // 
-            this.txtProductos.Location = new System.Drawing.Point(289, 410);
+            this.txtProductos.Location = new System.Drawing.Point(289, 373);
             this.txtProductos.Margin = new System.Windows.Forms.Padding(4);
+            this.txtProductos.Multiline = true;
             this.txtProductos.Name = "txtProductos";
-            this.txtProductos.Size = new System.Drawing.Size(304, 23);
+            this.txtProductos.Size = new System.Drawing.Size(304, 76);
             this.txtProductos.TabIndex = 20;
             // 
             // lblProductos
             // 
             this.lblProductos.AutoSize = true;
             this.lblProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblProductos.Location = new System.Drawing.Point(149, 414);
+            this.lblProductos.Location = new System.Drawing.Point(160, 373);
             this.lblProductos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblProductos.Name = "lblProductos";
             this.lblProductos.Size = new System.Drawing.Size(86, 17);
             this.lblProductos.TabIndex = 19;
             this.lblProductos.Text = "Productos:";
             // 
-            // txtWhatsApp
+            // txtNumeroTelefono
             // 
-            this.txtWhatsApp.Location = new System.Drawing.Point(289, 450);
-            this.txtWhatsApp.Margin = new System.Windows.Forms.Padding(4);
-            this.txtWhatsApp.Mask = "(999)0000-0000";
-            this.txtWhatsApp.Name = "txtWhatsApp";
-            this.txtWhatsApp.Size = new System.Drawing.Size(304, 23);
-            this.txtWhatsApp.TabIndex = 2;
-            // 
-            // btnEditFile
-            // 
-            this.btnEditFile.Location = new System.Drawing.Point(1085, 340);
-            this.btnEditFile.Margin = new System.Windows.Forms.Padding(4);
-            this.btnEditFile.Name = "btnEditFile";
-            this.btnEditFile.Size = new System.Drawing.Size(140, 76);
-            this.btnEditFile.TabIndex = 18;
-            this.btnEditFile.UseVisualStyleBackColor = true;
+            this.txtNumeroTelefono.Location = new System.Drawing.Point(289, 250);
+            this.txtNumeroTelefono.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNumeroTelefono.Mask = "(999)0000-0000";
+            this.txtNumeroTelefono.Name = "txtNumeroTelefono";
+            this.txtNumeroTelefono.Size = new System.Drawing.Size(278, 23);
+            this.txtNumeroTelefono.TabIndex = 2;
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(907, 341);
+            this.btnGuardar.Location = new System.Drawing.Point(826, 378);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(137, 78);
+            this.btnGuardar.Size = new System.Drawing.Size(217, 136);
             this.btnGuardar.TabIndex = 1;
+            this.btnGuardar.Text = "Agregar";
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
@@ -172,7 +162,7 @@
             // 
             this.lblPaginaweb.AutoSize = true;
             this.lblPaginaweb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblPaginaweb.Location = new System.Drawing.Point(136, 500);
+            this.lblPaginaweb.Location = new System.Drawing.Point(146, 497);
             this.lblPaginaweb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPaginaweb.Name = "lblPaginaweb";
             this.lblPaginaweb.Size = new System.Drawing.Size(100, 17);
@@ -189,25 +179,25 @@
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(289, 373);
+            this.txtDireccion.Location = new System.Drawing.Point(289, 330);
             this.txtDireccion.Margin = new System.Windows.Forms.Padding(4);
             this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(304, 23);
+            this.txtDireccion.Size = new System.Drawing.Size(298, 23);
             this.txtDireccion.TabIndex = 14;
             // 
             // txtCorreoElectronico
             // 
-            this.txtCorreoElectronico.Location = new System.Drawing.Point(289, 341);
+            this.txtCorreoElectronico.Location = new System.Drawing.Point(289, 288);
             this.txtCorreoElectronico.Margin = new System.Windows.Forms.Padding(4);
             this.txtCorreoElectronico.Name = "txtCorreoElectronico";
-            this.txtCorreoElectronico.Size = new System.Drawing.Size(304, 23);
+            this.txtCorreoElectronico.Size = new System.Drawing.Size(298, 23);
             this.txtCorreoElectronico.TabIndex = 13;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(92, 341);
+            this.label1.Location = new System.Drawing.Point(98, 294);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(148, 17);
@@ -218,7 +208,7 @@
             // 
             this.lblContacto2.AutoSize = true;
             this.lblContacto2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblContacto2.Location = new System.Drawing.Point(149, 313);
+            this.lblContacto2.Location = new System.Drawing.Point(612, 327);
             this.lblContacto2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContacto2.Name = "lblContacto2";
             this.lblContacto2.Size = new System.Drawing.Size(91, 17);
@@ -229,7 +219,7 @@
             // 
             this.lblContacto1.AutoSize = true;
             this.lblContacto1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblContacto1.Location = new System.Drawing.Point(149, 277);
+            this.lblContacto1.Location = new System.Drawing.Point(612, 291);
             this.lblContacto1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContacto1.Name = "lblContacto1";
             this.lblContacto1.Size = new System.Drawing.Size(91, 17);
@@ -249,25 +239,16 @@
             // 
             this.lblDetalles.AutoSize = true;
             this.lblDetalles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblDetalles.Location = new System.Drawing.Point(143, 150);
+            this.lblDetalles.Location = new System.Drawing.Point(174, 150);
             this.lblDetalles.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDetalles.Name = "lblDetalles";
             this.lblDetalles.Size = new System.Drawing.Size(72, 17);
             this.lblDetalles.TabIndex = 8;
             this.lblDetalles.Text = "Detalles:";
             // 
-            // btnImprimir
-            // 
-            this.btnImprimir.Location = new System.Drawing.Point(712, 341);
-            this.btnImprimir.Margin = new System.Windows.Forms.Padding(4);
-            this.btnImprimir.Name = "btnImprimir";
-            this.btnImprimir.Size = new System.Drawing.Size(144, 75);
-            this.btnImprimir.TabIndex = 1;
-            this.btnImprimir.UseVisualStyleBackColor = true;
-            // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(907, 48);
+            this.pictureBox1.Location = new System.Drawing.Point(826, 52);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(217, 148);
@@ -277,36 +258,36 @@
             // 
             // txtContacto2
             // 
-            this.txtContacto2.Location = new System.Drawing.Point(289, 309);
+            this.txtContacto2.Location = new System.Drawing.Point(752, 323);
             this.txtContacto2.Margin = new System.Windows.Forms.Padding(4);
             this.txtContacto2.Name = "txtContacto2";
-            this.txtContacto2.Size = new System.Drawing.Size(304, 23);
+            this.txtContacto2.Size = new System.Drawing.Size(291, 23);
             this.txtContacto2.TabIndex = 6;
             // 
-            // lblWhatsApp
+            // lblNumeroTelefono
             // 
-            this.lblWhatsApp.AutoSize = true;
-            this.lblWhatsApp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblWhatsApp.Location = new System.Drawing.Point(148, 459);
-            this.lblWhatsApp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblWhatsApp.Name = "lblWhatsApp";
-            this.lblWhatsApp.Size = new System.Drawing.Size(86, 17);
-            this.lblWhatsApp.TabIndex = 5;
-            this.lblWhatsApp.Text = "WhatsApp:";
+            this.lblNumeroTelefono.AutoSize = true;
+            this.lblNumeroTelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblNumeroTelefono.Location = new System.Drawing.Point(93, 256);
+            this.lblNumeroTelefono.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNumeroTelefono.Name = "lblNumeroTelefono";
+            this.lblNumeroTelefono.Size = new System.Drawing.Size(156, 17);
+            this.lblNumeroTelefono.TabIndex = 5;
+            this.lblNumeroTelefono.Text = "Numero de telefono:";
             // 
             // txtContacto1
             // 
-            this.txtContacto1.Location = new System.Drawing.Point(289, 277);
+            this.txtContacto1.Location = new System.Drawing.Point(752, 291);
             this.txtContacto1.Margin = new System.Windows.Forms.Padding(4);
             this.txtContacto1.Name = "txtContacto1";
-            this.txtContacto1.Size = new System.Drawing.Size(304, 23);
+            this.txtContacto1.Size = new System.Drawing.Size(291, 23);
             this.txtContacto1.TabIndex = 4;
             // 
             // lblDireccion
             // 
             this.lblDireccion.AutoSize = true;
             this.lblDireccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblDireccion.Location = new System.Drawing.Point(156, 370);
+            this.lblDireccion.Location = new System.Drawing.Point(165, 330);
             this.lblDireccion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDireccion.Name = "lblDireccion";
             this.lblDireccion.Size = new System.Drawing.Size(81, 17);
@@ -315,7 +296,7 @@
             // 
             // txtIDDocumento
             // 
-            this.txtIDDocumento.Location = new System.Drawing.Point(289, 239);
+            this.txtIDDocumento.Location = new System.Drawing.Point(289, 460);
             this.txtIDDocumento.Margin = new System.Windows.Forms.Padding(4);
             this.txtIDDocumento.Name = "txtIDDocumento";
             this.txtIDDocumento.Size = new System.Drawing.Size(304, 23);
@@ -325,7 +306,7 @@
             // 
             this.lblidDocumento.AutoSize = true;
             this.lblidDocumento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblidDocumento.Location = new System.Drawing.Point(123, 239);
+            this.lblidDocumento.Location = new System.Drawing.Point(137, 455);
             this.lblidDocumento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblidDocumento.Name = "lblidDocumento";
             this.lblidDocumento.Size = new System.Drawing.Size(112, 17);
@@ -344,7 +325,7 @@
             // 
             this.lblNombreEmpresa.AutoSize = true;
             this.lblNombreEmpresa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblNombreEmpresa.Location = new System.Drawing.Point(63, 102);
+            this.lblNombreEmpresa.Location = new System.Drawing.Point(68, 102);
             this.lblNombreEmpresa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombreEmpresa.Name = "lblNombreEmpresa";
             this.lblNombreEmpresa.Size = new System.Drawing.Size(178, 17);
@@ -356,6 +337,7 @@
             this.txtIDPRoveevedor.Location = new System.Drawing.Point(289, 30);
             this.txtIDPRoveevedor.Margin = new System.Windows.Forms.Padding(4);
             this.txtIDPRoveevedor.Name = "txtIDPRoveevedor";
+            this.txtIDPRoveevedor.ReadOnly = true;
             this.txtIDPRoveevedor.Size = new System.Drawing.Size(304, 23);
             this.txtIDPRoveevedor.TabIndex = 1;
             // 
@@ -363,7 +345,7 @@
             // 
             this.lblIDProveedor.AutoSize = true;
             this.lblIDProveedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.lblIDProveedor.Location = new System.Drawing.Point(119, 33);
+            this.lblIDProveedor.Location = new System.Drawing.Point(136, 36);
             this.lblIDProveedor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIDProveedor.Name = "lblIDProveedor";
             this.lblIDProveedor.Size = new System.Drawing.Size(117, 17);
@@ -374,7 +356,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1339, 587);
+            this.ClientSize = new System.Drawing.Size(1092, 587);
             this.Controls.Add(this.gpProvedores);
             this.Name = "frmAgregarProveedor";
             this.Text = "AgregarProveedor";
@@ -393,8 +375,7 @@
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.TextBox txtProductos;
         private System.Windows.Forms.Label lblProductos;
-        private System.Windows.Forms.MaskedTextBox txtWhatsApp;
-        private System.Windows.Forms.Button btnEditFile;
+        private System.Windows.Forms.MaskedTextBox txtNumeroTelefono;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Label lblPaginaweb;
         private System.Windows.Forms.TextBox txtPaginaWeb;
@@ -405,10 +386,9 @@
         private System.Windows.Forms.Label lblContacto1;
         private System.Windows.Forms.TextBox txtDetalles;
         private System.Windows.Forms.Label lblDetalles;
-        private System.Windows.Forms.Button btnImprimir;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtContacto2;
-        private System.Windows.Forms.Label lblWhatsApp;
+        private System.Windows.Forms.Label lblNumeroTelefono;
         private System.Windows.Forms.TextBox txtContacto1;
         private System.Windows.Forms.Label lblDireccion;
         private System.Windows.Forms.TextBox txtIDDocumento;

@@ -38,8 +38,8 @@
             this.txtBuscarEmpresa = new System.Windows.Forms.TextBox();
             this.pnlBuscarNombre = new System.Windows.Forms.Panel();
             this.lblBuscarNombre = new System.Windows.Forms.Label();
-            this.txtBuscarID = new System.Windows.Forms.TextBox();
             this.txtBuscarNombre = new System.Windows.Forms.TextBox();
+            this.txtBuscarID = new System.Windows.Forms.MaskedTextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             this.pnlBuscarDetalles.SuspendLayout();
@@ -49,13 +49,13 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.txtBuscarID);
             this.panel1.Controls.Add(this.btnAgregarClientes);
             this.panel1.Controls.Add(this.dgvClientes);
             this.panel1.Controls.Add(this.pnlBuscarDetalles);
             this.panel1.Controls.Add(this.pnlBuscarID);
             this.panel1.Controls.Add(this.txtBuscarEmpresa);
             this.panel1.Controls.Add(this.pnlBuscarNombre);
-            this.panel1.Controls.Add(this.txtBuscarID);
             this.panel1.Controls.Add(this.txtBuscarNombre);
             this.panel1.Location = new System.Drawing.Point(56, 50);
             this.panel1.Name = "panel1";
@@ -164,17 +164,6 @@
             this.lblBuscarNombre.TabIndex = 1;
             this.lblBuscarNombre.Text = "Buscar por Nombre";
             // 
-            // txtBuscarID
-            // 
-            this.txtBuscarID.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBuscarID.Location = new System.Drawing.Point(1113, 27);
-            this.txtBuscarID.Margin = new System.Windows.Forms.Padding(4);
-            this.txtBuscarID.Multiline = true;
-            this.txtBuscarID.Name = "txtBuscarID";
-            this.txtBuscarID.Size = new System.Drawing.Size(434, 31);
-            this.txtBuscarID.TabIndex = 16;
-            this.txtBuscarID.TextChanged += new System.EventHandler(this.txtBuscarID_TextChanged);
-            // 
             // txtBuscarNombre
             // 
             this.txtBuscarNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -185,6 +174,17 @@
             this.txtBuscarNombre.Size = new System.Drawing.Size(434, 31);
             this.txtBuscarNombre.TabIndex = 12;
             this.txtBuscarNombre.TextChanged += new System.EventHandler(this.txtBuscarNombre_TextChanged);
+            // 
+            // txtBuscarID
+            // 
+            this.txtBuscarID.Location = new System.Drawing.Point(1122, 31);
+            this.txtBuscarID.Mask = "99999";
+            this.txtBuscarID.Name = "txtBuscarID";
+            this.txtBuscarID.Size = new System.Drawing.Size(193, 22);
+            this.txtBuscarID.TabIndex = 22;
+            this.txtBuscarID.ValidatingType = typeof(int);
+            this.txtBuscarID.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtBuscarID_MaskInputRejected);
+            this.txtBuscarID.TextChanged += new System.EventHandler(this.txtBuscarID_TextChanged);
             // 
             // frmVerClientes
             // 
@@ -219,8 +219,8 @@
         private System.Windows.Forms.TextBox txtBuscarEmpresa;
         private System.Windows.Forms.Panel pnlBuscarNombre;
         private System.Windows.Forms.Label lblBuscarNombre;
-        private System.Windows.Forms.TextBox txtBuscarID;
         private System.Windows.Forms.TextBox txtBuscarNombre;
         private System.Windows.Forms.Button btnAgregarClientes;
+        private System.Windows.Forms.MaskedTextBox txtBuscarID;
     }
 }

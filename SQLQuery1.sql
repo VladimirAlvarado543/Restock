@@ -6,21 +6,21 @@ Go
 CREATE TABLE Cliente(
 idCliente INT IDENTITY(100,1) PRIMARY KEY,
 --Id generado automaticamente desde 100--
-nombre VARCHAR(50) NOT NULL, 
+nombre VARCHAR(100) NOT NULL, 
 --Ingresar el nombre de el cliente, el espacio se define como not null ya que es un campo nesesario--
-nombreEmpresa VARCHAR(50),
+nombreEmpresa VARCHAR(100),
 --En caso que el cliente sea una empresa--
 detalles VARCHAR (max),
 --Descripcion o detalles del cliente--
-idDocumento VARCHAR(50),
+idDocumento VARCHAR(100),
 --Documento de el cliente--
-contacto VARCHAR(50),
+contacto VARCHAR(75),
 --Contacto en redes sociales como instagram o facebook--
-correoElectronico Varchar(50),
+correoElectronico Varchar(75),
 --E-mail del cliente--
-direccion VARCHAR(50),
+direccion VARCHAR(100),
 --Direccion del cliente o de la entrega--
-numeroTelefono INT);
+numeroTelefono INT NOT NULL);
 --Numero de telefono--
 GO
 
@@ -28,9 +28,9 @@ GO
 CREATE TABLE Proveedor (
 idProveedor INT IDENTITY(100,1) PRIMARY KEY,
 --Id generado automaticamente desde 100--
-nombre VARCHAR(50)NOT NULL, 
+nombre VARCHAR(100)NOT NULL, 
 --Ingresar el nombre de el cliente, el espacio se define como not null ya que es un campo nesesario--
-nombreEmpresa VARCHAR(50)NOT NULL,
+nombreEmpresa VARCHAR(100)NOT NULL,
 --Nombre de la empresa proveedora, definido not null ya que es un campo obligatorio--
 detalles VARCHAR(MAX),
 --Descripcion o detalles de proveedor--
@@ -38,11 +38,11 @@ producto VARCHAR(MAX)NOT NULL,
 --Nombre de el o los productos que provee, definifo como not null ya que es un campo obligatorio--
 idDocumento VARCHAR(50),
 --Documento de el Proveedor--
-correoElectronico VARCHAR(50),
+correoElectronico VARCHAR(50) NOT NULL,
 --E-mail del Proveedor--
 direccion VARCHAR(100),
 --Direccion del Proveedor--
-numeroTelefono VARCHAR(20),
+numeroTelefono VARCHAR(20)NOT NULL,
 --Numero de telefono del Proveedor--
 paginaWeb VARCHAR(MAX),
 --Pagina web de el proveedor--
@@ -56,6 +56,7 @@ GO
 
 CREATE TABLE Rol(
 id_Rol INT IDENTITY(1,1) PRIMARY KEY,
+--Nombre de rol es unico y obligatorio--
 nombreRol VARCHAR(30) NOT NULL UNIQUE);
 GO
 --Define si es un empleado un administrador--
@@ -84,6 +85,7 @@ GO
 --Tabla para definir una categoria--
 CREATE TABLE Categoria(
 idCategoria INT IDENTITY(1,1)PRIMARY KEY,
+--Nombre categoria es obligatorio y unico--
 nombreCategoria VARCHAR(50)NOT NULL UNIQUE,
 detalles VARCHAR(MAX));
 GO
@@ -91,6 +93,7 @@ GO
 --Tabla para definir una Marca--
 CREATE TABLE Marca(
 idMarca INT IDENTITY(1,1)PRIMARY KEY,
+--Nombre Marca es obligatorio y unico--
 nombreMarca VARCHAR(50) NOT NULL UNIQUE,
 detalles VARCHAR(MAX));
 GO
@@ -115,27 +118,13 @@ fechaIngreso DATE NOT NULL,
 --Fecha de ingreso del producto--
 precioVenta DECIMAL(10,2)NOT NULL,
 --Precio de venta que tendra en el emprendimiento o empresa--
-idProveedor INT,
+idProveedor INT NOT NULL,
 --Id del proveedor del producto--
 FOREIGN KEY(idProveedor) REFERENCES Proveedor(idProveedor),
 --Llaves foraneas--
 FOREIGN KEY(idCategoria) REFERENCES Categoria(idCategoria),
 FOREIGN KEY(idMarca) REFERENCES Marca(idMarca));
  GO 
- 
-insert into Marca(nombreMarca) VALUES('Marca de prueba');
-select *from Marca;
-
-insert into Categoria(nombreCategoria) Values('Categoria de prueba');
-select *from Categoria
-
-insert into Proveedor Values('Sujeto de prueba','EmpresaSimulada','Proveedor Prueba',
-'Producto X','1909090','dummy@gmail.com','Calle Rosa linda','98900191','Web.Net','Facebook','instagram');
- select *from Proveedor;
-
- insert into Producto(nombreProducto, detalles, idCategoria, idMarca, existencia, precioCompra, fechaIngreso, precioVenta, idProveedor)
- Values('Producto Prueba','Producto para prueba de registros', 1, 1, 10,10.99,'2025/7/22',20.00,101);
-select *from Producto
 
  --Tabla ventas en la que se llevara registro de las ventas realizadas--
 CREATE TABLE detalleFactura (
@@ -153,9 +142,12 @@ GO
 
 CREATE TABLE Factura(
 idFactura INT IDENTITY(1,1)	PRIMARY KEY,
-idDetalleFactura INT,
+idDetalleFactura INT NOT NULL,
 idCliente INT,
-FOREIGN KEY(idCliente) REFERENCES Cliente(idCliente));
+--id del cliente si aplica--
+--Llaves foraneas--
+FOREIGN KEY(idCliente) REFERENCES Cliente(idCliente),
+FOREIGN KEY(idDetalleFactura) REFERENCES DetalleFactura(idDetalleFactura));
 GO
 
 --Tabla para llevar registro de productos que se descarten--
@@ -174,6 +166,7 @@ FOREIGN KEY(idProducto) REFERENCES Producto(idProducto));
 GO
 
 --Eliminar tablas en orden--
+DROP TABLE 
 DROP TABLE ProductoDescartado
 DROP TABLE Cliente
 DROP TABLE Categoria
@@ -189,5 +182,20 @@ SELECT idUsuario, contrasenia, nombre, apellido, R.nombreRol AS Rol, numeroTelef
 FROM Usuario U
 INNER JOIN Rol R ON U.idRol = R.id_Rol;
 
+SELECT idProducto, nombreProducto, P.detalles, C.nombreCategoria AS Categoria, NM.nombreMarca AS Marca,
+PR.nombre AS Proveedor, existencia, precioCompra, fechaIngreso,
+precioVenta FROM Producto P INNER JOIN Categoria C ON P.idCategoria = C.idCategoria
+INNER JOIN Marca NM ON P.idMarca = NM.idMarca INNER JOIN Proveedor PR ON
+P.idProveedor = PR.idProveedor  WHERE 1=1 
+
+Insert into Categoria values ('STEREN', 'MULTIMEDIA')
+Insert into Marca values ('STEREN',' ')
+
+SELECT *from Cliente WHERE 1=1 AND idCliente = 100
+
 SELECT *FROM Cliente
 SELECT *FROM Proveedor
+SELECT *FROM Usuario
+SELECT *FROM Producto
+SELECT *FROM Marca
+SELECT *FROM Categoria

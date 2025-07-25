@@ -23,7 +23,7 @@ namespace Vista.Clientes
             int.TryParse(txtBuscarID.Text.Trim(), out id);
 
             dgvClientes.DataSource = null;
-            dgvClientes.DataSource = Cliente.ObtenerCliente(nombre,nombreEmpresa, id);
+            dgvClientes.DataSource = Cliente.ObtenerCliente(nombre,nombreEmpresa,id);
         }
         public frmVerClientes()
         {
@@ -53,12 +53,17 @@ namespace Vista.Clientes
             MostrarClientes();
         }
         
-        private void txtBuscarID_TextChanged(object sender, EventArgs e)
+        private void txtBuscarDetalles_TextChanged(object sender, EventArgs e)
         {
             MostrarClientes();
         }
 
-        private void txtBuscarDetalles_TextChanged(object sender, EventArgs e)
+        private void txtBuscarID_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            MostrarClientes();
+        }
+
+        private void txtBuscarID_TextChanged(object sender, EventArgs e)
         {
             MostrarClientes();
         }

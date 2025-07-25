@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Modelo.Conexion;
+using System.Diagnostics.Eventing.Reader;
 
 namespace Modelo.Entidades
 {
@@ -41,30 +42,40 @@ namespace Modelo.Entidades
 
                 // Se agrega una condición para filtrar los resultados según el nombre del producto y el ID
                 if (!string.IsNullOrWhiteSpace(nombre))
+                { 
                     // Si el nombre no está vacío, se agrega una condición a la consulta SQL
                     consulta += " AND (nombre LIKE @nombre)";
+                }
                 // Si el ID es mayor que 0, se agrega una condición para filtrar por ID
                 if (id > 0)
-                    consulta += " AND idCliente = @id";
+                {
+                    consulta += "AND idCliente = @id";
                     // Si no se proporciona nombre ni ID, se retorna un DataTable vacío
                     return new DataTable();
+                }
                 if (!string.IsNullOrWhiteSpace(nombreEmpresa))
+                { 
                 
                     // Si el nombre no está vacío, se agrega una condición a la consulta SQL
                     consulta += " AND (nombreEmpresa LIKE @nombreEmpresa)";
-                
+                }
                 // Se crea un comando SQL que se usará para ejecutar la consulta
                 using (SqlCommand cmd = new SqlCommand(consulta, con))
                 {
                     if (!string.IsNullOrWhiteSpace(nombre))
+                    { 
                         // Si el nombre no está vacío, se agrega como parámetro al comando SQL
                         cmd.Parameters.AddWithValue("@nombre", "%" + nombre + "%");
-                    // Si el ID es mayor que 0, se agrega como parámetro al comando SQL
+                        // Si el ID es mayor que 0, se agrega como parámetro al comando SQL
+                    }
                     if (id > 0)
+                    { 
                         cmd.Parameters.AddWithValue("@id", id);
+                    }
                     if (!string.IsNullOrWhiteSpace(nombreEmpresa))
+
                         // Si el nombre no está vacío, se agrega como parámetro al comando SQL
-                        cmd.Parameters.AddWithValue("@nombre", "%" + nombreEmpresa + "%");
+                        cmd.Parameters.AddWithValue("@nombreEmpresa", "%" + nombreEmpresa + "%");
                     // Crea un adaptador que usa el comando SQL ya preparado (cmd)
                     // Este adaptador se encarga de ejecutar la consulta y llenar los datos en un DataTable
                     SqlDataAdapter add = new SqlDataAdapter(cmd);

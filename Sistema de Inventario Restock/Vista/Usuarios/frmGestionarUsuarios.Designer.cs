@@ -38,7 +38,7 @@
             this.rbnEmpleado = new System.Windows.Forms.RadioButton();
             this.rbnAdministrador = new System.Windows.Forms.RadioButton();
             this.dgvCargarUsuarios = new System.Windows.Forms.DataGridView();
-            this.txtContrasena = new System.Windows.Forms.TextBox();
+            this.txtContrasenia = new System.Windows.Forms.TextBox();
             this.lblContrasena = new System.Windows.Forms.Label();
             this.txtNumeroTelefono = new System.Windows.Forms.MaskedTextBox();
             this.lblContacto = new System.Windows.Forms.Label();
@@ -64,7 +64,7 @@
             this.pnlPrincipal.Controls.Add(this.btnAgregar);
             this.pnlPrincipal.Controls.Add(this.gpRol);
             this.pnlPrincipal.Controls.Add(this.dgvCargarUsuarios);
-            this.pnlPrincipal.Controls.Add(this.txtContrasena);
+            this.pnlPrincipal.Controls.Add(this.txtContrasenia);
             this.pnlPrincipal.Controls.Add(this.lblContrasena);
             this.pnlPrincipal.Controls.Add(this.txtNumeroTelefono);
             this.pnlPrincipal.Controls.Add(this.lblContacto);
@@ -86,7 +86,7 @@
             // 
             // txtBuscarNombre
             // 
-            this.txtBuscarNombre.Location = new System.Drawing.Point(281, 219);
+            this.txtBuscarNombre.Location = new System.Drawing.Point(230, 219);
             this.txtBuscarNombre.Name = "txtBuscarNombre";
             this.txtBuscarNombre.Size = new System.Drawing.Size(264, 22);
             this.txtBuscarNombre.TabIndex = 40;
@@ -105,18 +105,22 @@
             // lblBuscarId
             // 
             this.lblBuscarId.AutoSize = true;
-            this.lblBuscarId.Location = new System.Drawing.Point(601, 219);
+            this.lblBuscarId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblBuscarId.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBuscarId.Location = new System.Drawing.Point(588, 222);
             this.lblBuscarId.Name = "lblBuscarId";
-            this.lblBuscarId.Size = new System.Drawing.Size(88, 16);
+            this.lblBuscarId.Size = new System.Drawing.Size(101, 16);
             this.lblBuscarId.TabIndex = 38;
             this.lblBuscarId.Text = "Buscar por ID";
             // 
             // lblBuscarNombre
             // 
             this.lblBuscarNombre.AutoSize = true;
-            this.lblBuscarNombre.Location = new System.Drawing.Point(140, 219);
+            this.lblBuscarNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblBuscarNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBuscarNombre.Location = new System.Drawing.Point(65, 222);
             this.lblBuscarNombre.Name = "lblBuscarNombre";
-            this.lblBuscarNombre.Size = new System.Drawing.Size(124, 16);
+            this.lblBuscarNombre.Size = new System.Drawing.Size(141, 16);
             this.lblBuscarNombre.TabIndex = 37;
             this.lblBuscarNombre.Text = "Buscar por Nombre";
             // 
@@ -134,7 +138,7 @@
             // 
             this.gpRol.Controls.Add(this.rbnEmpleado);
             this.gpRol.Controls.Add(this.rbnAdministrador);
-            this.gpRol.Location = new System.Drawing.Point(485, 31);
+            this.gpRol.Location = new System.Drawing.Point(517, 35);
             this.gpRol.Name = "gpRol";
             this.gpRol.Size = new System.Drawing.Size(121, 98);
             this.gpRol.TabIndex = 29;
@@ -166,52 +170,58 @@
             // dgvCargarUsuarios
             // 
             this.dgvCargarUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCargarUsuarios.Location = new System.Drawing.Point(104, 288);
+            this.dgvCargarUsuarios.Location = new System.Drawing.Point(68, 288);
             this.dgvCargarUsuarios.Name = "dgvCargarUsuarios";
             this.dgvCargarUsuarios.RowHeadersWidth = 51;
             this.dgvCargarUsuarios.RowTemplate.Height = 24;
-            this.dgvCargarUsuarios.Size = new System.Drawing.Size(767, 297);
+            this.dgvCargarUsuarios.Size = new System.Drawing.Size(803, 297);
             this.dgvCargarUsuarios.TabIndex = 28;
             // 
-            // txtContrasena
+            // txtContrasenia
             // 
-            this.txtContrasena.Location = new System.Drawing.Point(185, 171);
-            this.txtContrasena.Name = "txtContrasena";
-            this.txtContrasena.Size = new System.Drawing.Size(100, 22);
-            this.txtContrasena.TabIndex = 27;
+            this.txtContrasenia.Location = new System.Drawing.Point(219, 168);
+            this.txtContrasenia.Name = "txtContrasenia";
+            this.txtContrasenia.Size = new System.Drawing.Size(100, 22);
+            this.txtContrasenia.TabIndex = 27;
             // 
             // lblContrasena
             // 
             this.lblContrasena.AutoSize = true;
-            this.lblContrasena.Location = new System.Drawing.Point(100, 174);
+            this.lblContrasena.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblContrasena.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContrasena.Location = new System.Drawing.Point(110, 174);
             this.lblContrasena.Name = "lblContrasena";
-            this.lblContrasena.Size = new System.Drawing.Size(79, 16);
+            this.lblContrasena.Size = new System.Drawing.Size(90, 16);
             this.lblContrasena.TabIndex = 26;
             this.lblContrasena.Text = "Contraseña:";
             // 
             // txtNumeroTelefono
             // 
-            this.txtNumeroTelefono.Location = new System.Drawing.Point(216, 105);
+            this.txtNumeroTelefono.Location = new System.Drawing.Point(219, 107);
             this.txtNumeroTelefono.Mask = "(999)000-0000";
             this.txtNumeroTelefono.Name = "txtNumeroTelefono";
-            this.txtNumeroTelefono.Size = new System.Drawing.Size(96, 22);
+            this.txtNumeroTelefono.Size = new System.Drawing.Size(114, 22);
             this.txtNumeroTelefono.TabIndex = 24;
             // 
             // lblContacto
             // 
             this.lblContacto.AutoSize = true;
-            this.lblContacto.Location = new System.Drawing.Point(101, 139);
+            this.lblContacto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblContacto.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContacto.Location = new System.Drawing.Point(135, 139);
             this.lblContacto.Name = "lblContacto";
-            this.lblContacto.Size = new System.Drawing.Size(60, 16);
+            this.lblContacto.Size = new System.Drawing.Size(68, 16);
             this.lblContacto.TabIndex = 23;
             this.lblContacto.Text = "Contacto";
             // 
             // lblNumeroTelefono
             // 
             this.lblNumeroTelefono.AutoSize = true;
-            this.lblNumeroTelefono.Location = new System.Drawing.Point(101, 113);
+            this.lblNumeroTelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblNumeroTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumeroTelefono.Location = new System.Drawing.Point(80, 107);
             this.lblNumeroTelefono.Name = "lblNumeroTelefono";
-            this.lblNumeroTelefono.Size = new System.Drawing.Size(109, 16);
+            this.lblNumeroTelefono.Size = new System.Drawing.Size(123, 16);
             this.lblNumeroTelefono.TabIndex = 22;
             this.lblNumeroTelefono.Text = "NumeroTelefono";
             // 
@@ -226,7 +236,7 @@
             // 
             // txtContacto
             // 
-            this.txtContacto.Location = new System.Drawing.Point(175, 133);
+            this.txtContacto.Location = new System.Drawing.Point(219, 136);
             this.txtContacto.Name = "txtContacto";
             this.txtContacto.Size = new System.Drawing.Size(262, 22);
             this.txtContacto.TabIndex = 12;
@@ -234,14 +244,14 @@
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(174, 64);
+            this.txtApellido.Location = new System.Drawing.Point(219, 64);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(262, 22);
             this.txtApellido.TabIndex = 16;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(174, 35);
+            this.txtNombre.Location = new System.Drawing.Point(216, 31);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(262, 22);
             this.txtNombre.TabIndex = 15;
@@ -256,18 +266,22 @@
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Location = new System.Drawing.Point(100, 64);
+            this.lblApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApellido.Location = new System.Drawing.Point(135, 64);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(57, 16);
+            this.lblApellido.Size = new System.Drawing.Size(65, 16);
             this.lblApellido.TabIndex = 11;
             this.lblApellido.Text = "Apellido";
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(100, 35);
+            this.lblNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Location = new System.Drawing.Point(144, 31);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(56, 16);
+            this.lblNombre.Size = new System.Drawing.Size(62, 16);
             this.lblNombre.TabIndex = 10;
             this.lblNombre.Text = "Nombre";
             // 
@@ -275,6 +289,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(1041, 676);
             this.Controls.Add(this.pnlPrincipal);
             this.Name = "frmGestionarUsuarios";
@@ -296,7 +311,7 @@
         private System.Windows.Forms.RadioButton rbnEmpleado;
         private System.Windows.Forms.RadioButton rbnAdministrador;
         private System.Windows.Forms.DataGridView dgvCargarUsuarios;
-        private System.Windows.Forms.TextBox txtContrasena;
+        private System.Windows.Forms.TextBox txtContrasenia;
         private System.Windows.Forms.Label lblContrasena;
         private System.Windows.Forms.MaskedTextBox txtNumeroTelefono;
         private System.Windows.Forms.Label lblContacto;

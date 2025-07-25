@@ -40,11 +40,11 @@
             // dgvVerProductos
             // 
             this.dgvVerProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVerProductos.Location = new System.Drawing.Point(82, 209);
+            this.dgvVerProductos.Location = new System.Drawing.Point(38, 209);
             this.dgvVerProductos.Name = "dgvVerProductos";
             this.dgvVerProductos.RowHeadersWidth = 51;
             this.dgvVerProductos.RowTemplate.Height = 24;
-            this.dgvVerProductos.Size = new System.Drawing.Size(953, 459);
+            this.dgvVerProductos.Size = new System.Drawing.Size(1046, 459);
             this.dgvVerProductos.TabIndex = 0;
             // 
             // txtBuscarId
@@ -58,17 +58,20 @@
             // 
             // btnAgregarProductos
             // 
+            this.btnAgregarProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnAgregarProductos.ForeColor = System.Drawing.Color.Black;
             this.btnAgregarProductos.Location = new System.Drawing.Point(460, 12);
             this.btnAgregarProductos.Name = "btnAgregarProductos";
             this.btnAgregarProductos.Size = new System.Drawing.Size(253, 79);
             this.btnAgregarProductos.TabIndex = 10;
             this.btnAgregarProductos.Text = "Agregar Productos";
-            this.btnAgregarProductos.UseVisualStyleBackColor = true;
+            this.btnAgregarProductos.UseVisualStyleBackColor = false;
             this.btnAgregarProductos.Click += new System.EventHandler(this.btnAgregarProductos_Click);
             // 
             // lblBuscarId
             // 
             this.lblBuscarId.AutoSize = true;
+            this.lblBuscarId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lblBuscarId.Location = new System.Drawing.Point(735, 149);
             this.lblBuscarId.Name = "lblBuscarId";
             this.lblBuscarId.Size = new System.Drawing.Size(63, 16);
@@ -78,6 +81,7 @@
             // lblBuscarNombre
             // 
             this.lblBuscarNombre.AutoSize = true;
+            this.lblBuscarNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lblBuscarNombre.Location = new System.Drawing.Point(141, 152);
             this.lblBuscarNombre.Name = "lblBuscarNombre";
             this.lblBuscarNombre.Size = new System.Drawing.Size(125, 16);

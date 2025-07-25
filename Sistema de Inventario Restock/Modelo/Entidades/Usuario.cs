@@ -56,7 +56,7 @@ namespace Modelo.Entidades
                     //sirve para llenar datos desde una base de datos SQL Server
 
                     DataTable dt = new DataTable();
-                    //Crea una tabala donde alamacera los datos de las columnas y filas 
+                    //Crea una tabla donde almacenara los datos de las columnas y filas 
                     add.Fill(dt);
                     //se carga la consulta a la base de datos
                     return dt;

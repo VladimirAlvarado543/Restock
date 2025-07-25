@@ -43,7 +43,7 @@ namespace Modelo.Entidades
                     " NM.nombreMarca AS Marca,\r\nPR.nombre AS Proveedor, existencia, precioCompra, fechaIngreso," +
                     " precioVenta\r\nFROM Producto P INNER JOIN Categoria C ON P.idCategoria = C.idCategoria" +
                     " \r\nINNER JOIN Marca NM ON P.idMarca = NM.idMarca\r\nINNER JOIN Proveedor PR ON" +
-                    " P.idProveedor = PR.idProveedor;\r\nselect *from Producto WHERE 1=1";
+                    " P.idProveedor = PR.idProveedor WHERE 1=1";
 
                 // Se agrega una condición para filtrar los resultados según el nombre del producto y el ID
                 if (!string.IsNullOrWhiteSpace(nombre))
