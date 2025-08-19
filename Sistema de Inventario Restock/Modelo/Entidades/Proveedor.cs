@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Modelo.Conexion;
 
 namespace Modelo.Entidades
@@ -19,7 +20,7 @@ namespace Modelo.Entidades
         private string NumeroTelefono;
         private string PaginaWeb;
         private string Nombre;
-        private string nombreempresa;
+        private string nombreEmpresa;
         private string detalles;
         private string CorreoElectronico;
         private string Direccion;
@@ -32,7 +33,7 @@ namespace Modelo.Entidades
         public string NumeroTelefono1 { get => NumeroTelefono; set => NumeroTelefono = value; }
         public string PaginaWeb1 { get => PaginaWeb; set => PaginaWeb = value; }
         public string Nombre1 { get => Nombre; set => Nombre = value; }
-        public string Nombreempresa { get => nombreempresa; set => nombreempresa = value; }
+        public string NombreEmpresa { get => nombreEmpresa; set => nombreEmpresa = value; }
         public string Detalles { get => detalles; set => detalles = value; }
         public string CorreoElectronico1 { get => CorreoElectronico; set => CorreoElectronico = value; }
         public string Direccion1 { get => Direccion; set => Direccion = value; }
@@ -42,7 +43,7 @@ namespace Modelo.Entidades
 
         public bool InsertarProveedor()
         {
-            //
+            try { 
             SqlConnection conexion = ConexionDB.Conectar();
 
             //Realizar la consulta
@@ -51,9 +52,9 @@ namespace Modelo.Entidades
 
             //declarar ek sql command
             SqlCommand cmd = new SqlCommand(comand, conexion);
-            // Agregar los parámetros necesarios para la consulta
+            // Agregar los parámetros necesarios para insertar
             cmd.Parameters.AddWithValue("@Nombre", Nombre1);
-            cmd.Parameters.AddWithValue("@NombreEmpresa", Nombreempresa);
+            cmd.Parameters.AddWithValue("@NombreEmpresa", NombreEmpresa);
             cmd.Parameters.AddWithValue("@Detalles", Detalles);
             cmd.Parameters.AddWithValue("@Producto", Productos1);
             cmd.Parameters.AddWithValue("@IdDocumento", IDDocumento1);
@@ -64,22 +65,22 @@ namespace Modelo.Entidades
             cmd.Parameters.AddWithValue("@Contacto1", Contacto11);
             cmd.Parameters.AddWithValue("@Contacto2", Contacto21);
 
-
-
-            if (cmd.ExecuteNonQuery() > 0)
-            {
+            cmd.ExecuteNonQuery();
+            
                 //Si la consulta se ejecuta correctamente y afecta a una o más filas, se retorna true
                 return true;
             }
-            else
+            catch (Exception ex)
             {
-                // Si no se afecta ninguna fila, se retorna false
+                MessageBox.Show("No se pudo insertar el Proveedor" + ex.Message, "Error al insertar datos",
+                       MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
 
         public static DataTable ObtenerProveedor(string nombre, int id)
         {
+            try { 
             using (SqlConnection con = ConexionDB.Conectar())
             {
                 // Se define una consulta SQL que selecciona varios campos de la tabla Producto y sus relaciones
@@ -117,6 +118,11 @@ namespace Modelo.Entidades
                     return dt;
 
                 }
+            }
+
+            }
+            catch { 
+                    return null;
             }
         }
     }

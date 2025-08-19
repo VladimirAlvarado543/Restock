@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Modelo.Conexion;
 using System.Diagnostics.Eventing.Reader;
+using System.Windows.Forms;
 
 namespace Modelo.Entidades
 {
@@ -35,8 +36,10 @@ namespace Modelo.Entidades
 
         public static DataTable ObtenerCliente(string nombre, string nombreEmpresa, int id)
         {
+            try { 
             using (SqlConnection con = ConexionDB.Conectar())
             {
+              
                 // Se define una consulta SQL que selecciona varios campos de la tabla Producto y sus relaciones
                 string consulta = "SELECT *from Cliente WHERE 1=1";
 
@@ -90,10 +93,15 @@ namespace Modelo.Entidades
                     return dt;
 
                 }
+                }
             }
+            catch
+            { return null; }
+            
         }
         public bool InsertarClientes()
         {
+            try { 
             // Se establece una conexión a la base de datos utilizando la clase ConexionDB
             SqlConnection conexion = ConexionDB.Conectar();
 
@@ -111,15 +119,13 @@ namespace Modelo.Entidades
             insertar.Parameters.AddWithValue("@CorreoElectronico", correoElectronico);
             insertar.Parameters.AddWithValue("@Direccion", direccion);
             insertar.Parameters.AddWithValue("@NumeroTelefono", numeroTelefono);
-
-            if (insertar.ExecuteNonQuery() > 0)
-            {
-                // Si la consulta se ejecuta correctamente y se insertan filas, se retorna true
+                insertar.ExecuteNonQuery();
                 return true;
             }
-            else
+            catch (Exception ex)
             {
-                // Si no se insertan filas, se retorna false
+                MessageBox.Show("No se pudo insertar el Cliente" + ex.Message, "Error al insertar datos",
+                       MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }

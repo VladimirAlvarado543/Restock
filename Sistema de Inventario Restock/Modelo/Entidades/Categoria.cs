@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Modelo.Conexion;
+using System.Windows.Forms;
 
 namespace Modelo.Entidades
 {
@@ -21,29 +22,43 @@ namespace Modelo.Entidades
 
         public static DataTable VerCategoria()
         {
+            try { 
             SqlConnection conexion = ConexionDB.Conectar();
             string consultaQuery = "select  idCategoria, nombreCategoria, detalles from Categoria;";
             SqlDataAdapter add = new SqlDataAdapter(consultaQuery, conexion);
             DataTable dataVirtual = new DataTable();
             add.Fill(dataVirtual);
             return dataVirtual;
+            }
+            catch 
+            {
+                return null;
+            }
         }
+
         public bool InsertarCategoria()
         {
-            SqlConnection conexion = ConexionDB.Conectar();
-            string consultaQueryInsertar = "INSERT INTO Categoria(NombreCategoria, Detalles) values (@NombreCategoria, @Detalles);";
-            SqlCommand insertar = new SqlCommand(consultaQueryInsertar, conexion);
-            insertar.Parameters.AddWithValue("@NombreCategoria", nombreCategoria);
-            insertar.Parameters.AddWithValue("@Detalles", detalles);
-
-            if (insertar.ExecuteNonQuery() > 0)
+            try
             {
-                return true;
+                SqlConnection conexion = ConexionDB.Conectar();
+                string consultaQueryInsertar = "INSERT INTO Categoria(NombreCategoria, Detalles) values (@NombreCategoria, @Detalles);";
+                SqlCommand insertar = new SqlCommand(consultaQueryInsertar, conexion);
+                insertar.Parameters.AddWithValue("@NombreCategoria", nombreCategoria);
+                insertar.Parameters.AddWithValue("@Detalles", detalles);
+                insertar.ExecuteNonQuery();
+               
+                    return true;
+                
             }
-            else
+
+            catch(Exception ex)
             {
+                MessageBox.Show("No se pudo insertar la Caregoria " + ex.Message, "Error al insertar datos",
+                       MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
+            
+            
         }
     }
 }

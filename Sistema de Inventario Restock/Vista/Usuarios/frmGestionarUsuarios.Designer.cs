@@ -198,7 +198,7 @@
             // txtNumeroTelefono
             // 
             this.txtNumeroTelefono.Location = new System.Drawing.Point(219, 107);
-            this.txtNumeroTelefono.Mask = "(999)000-0000";
+            this.txtNumeroTelefono.Mask = "(999)0000-0000";
             this.txtNumeroTelefono.Name = "txtNumeroTelefono";
             this.txtNumeroTelefono.Size = new System.Drawing.Size(114, 22);
             this.txtNumeroTelefono.TabIndex = 24;

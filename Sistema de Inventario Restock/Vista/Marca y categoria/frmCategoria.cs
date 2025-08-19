@@ -23,7 +23,7 @@ namespace Vista.Marca_y_categoria
             if (string.IsNullOrEmpty(txtNombreCategoria.Text))
             {
                 //  Mostrar un mensaje de error si el campo de nombre está vacío
-                MessageBox.Show("Debe llenar re.el campo de nomb", "ERROR");
+                MessageBox.Show("Debe llenar el campo de nombre", "ERROR");
                 return;
             }
             // Verificar si el campo de detalles está vacío

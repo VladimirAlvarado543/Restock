@@ -30,21 +30,36 @@ namespace Vista.InicioSesion
 
             if (usuarioIngresado == usuarioCorrecto && contrasenaIngresada == contrasenaCorrecta)
             {
-                // Si las credenciales son correctas, abrir el formulario del dashboard y ocultar el formulario de inicio de sesión
-                frmDahsboard nuevoFormulario = new frmDahsboard();
+                //Si las credenciales son correctas, abrir el formulario del dashboard y ocultar el formulario de inicio de sesión
+               frmDahsboard nuevoFormulario = new frmDahsboard();
                 // Crear una instancia del formulario de inicio y ocultarlo
                 frmInicio Cerrar = new frmInicio();
                 // Cerrar
-                this.Hide();
+                Cerrar.Close();
                 // Mostrar el nuevo formulario del dashboard
                 nuevoFormulario.Show();
-                
+
 
             }
             else
             {
                 MessageBox.Show("Usuario o contraseña incorrectos", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void PNIniciosesion_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void frmInicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LBBienvenido_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

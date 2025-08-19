@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Modelo.Conexion;
+using System.Windows.Forms;
 
 namespace Modelo.Entidades
 {
@@ -36,14 +37,11 @@ namespace Modelo.Entidades
 
         public static DataTable ObtenerProducto(string nombre, int id)
         {
+            try { 
             using (SqlConnection con = ConexionDB.Conectar())
             {
                 // Se define una consulta SQL que selecciona varios campos de la tabla Producto y sus relaciones
-                string consulta = "SELECT idProducto, nombreProducto, P.detalles, C.nombreCategoria AS Categoria," +
-                    " NM.nombreMarca AS Marca,\r\nPR.nombre AS Proveedor, existencia, precioCompra, fechaIngreso," +
-                    " precioVenta\r\nFROM Producto P INNER JOIN Categoria C ON P.idCategoria = C.idCategoria" +
-                    " \r\nINNER JOIN Marca NM ON P.idMarca = NM.idMarca\r\nINNER JOIN Proveedor PR ON" +
-                    " P.idProveedor = PR.idProveedor WHERE 1=1";
+                string consulta = "SELECT *FROM ProductosVer";
 
                 // Se agrega una condición para filtrar los resultados según el nombre del producto y el ID
                 if (!string.IsNullOrWhiteSpace(nombre))
@@ -77,11 +75,13 @@ namespace Modelo.Entidades
                     return dt;
 
                 }
+                }
             }
+            catch { return null; }
         }
         public bool InsertarProductos()
         {
-            
+            try { 
             SqlConnection conexion = ConexionDB.Conectar();
             // Realizar la consulta
             string consultaQueryInsertar = " insert into Producto(nombreProducto, detalles, idCategoria, idMarca, existencia, precioCompra, fechaIngreso, precioVenta, idProveedor)" +
@@ -98,15 +98,13 @@ namespace Modelo.Entidades
             insertar.Parameters.AddWithValue("@FechaIngreso", fechaIngreso);
             insertar.Parameters.AddWithValue("@PrecioVenta", precioVenta);
             insertar.Parameters.AddWithValue("@IdProveedor", idProveedor);
-
-            if (insertar.ExecuteNonQuery() > 0)
-            {
-                //Si la consulta se ejecuta correctamente y se insertan filas, se retorna true
+                insertar.ExecuteNonQuery();
                 return true;
             }
-            else
+            catch (Exception ex)
             {
-                // Si la consulta no se ejecuta correctamente, retornar false
+                MessageBox.Show("No se pudo insertar el Producto" + ex.Message, "Error al insertar datos",
+                       MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }

@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.mtxtNumeroTelefono = new System.Windows.Forms.MaskedTextBox();
             this.pnlNumeroTelefono = new System.Windows.Forms.Panel();
             this.lblNumeroTelefono = new System.Windows.Forms.Label();
             this.pnlDireccion = new System.Windows.Forms.Panel();
@@ -38,6 +37,7 @@
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.pnlCorreoElectronico = new System.Windows.Forms.Panel();
             this.lblCorreoElectronico = new System.Windows.Forms.Label();
+            this.txtCorreoElectronico = new System.Windows.Forms.TextBox();
             this.pnlContacto = new System.Windows.Forms.Panel();
             this.lblContacto = new System.Windows.Forms.Label();
             this.txtContacto = new System.Windows.Forms.TextBox();
@@ -56,7 +56,7 @@
             this.pnlClienteID = new System.Windows.Forms.Panel();
             this.lblClienteID = new System.Windows.Forms.Label();
             this.txtClienteID = new System.Windows.Forms.TextBox();
-            this.txtCorreoElectronico = new System.Windows.Forms.TextBox();
+            this.mtxtNumeroTelefono = new System.Windows.Forms.MaskedTextBox();
             this.panel1.SuspendLayout();
             this.pnlNumeroTelefono.SuspendLayout();
             this.pnlDireccion.SuspendLayout();
@@ -71,8 +71,8 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.btnAgregar);
             this.panel1.Controls.Add(this.mtxtNumeroTelefono);
+            this.panel1.Controls.Add(this.btnAgregar);
             this.panel1.Controls.Add(this.pnlNumeroTelefono);
             this.panel1.Controls.Add(this.pnlDireccion);
             this.panel1.Controls.Add(this.txtDireccion);
@@ -107,14 +107,6 @@
             this.btnAgregar.Text = "Agregar Cliente";
             this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
-            // mtxtNumeroTelefono
-            // 
-            this.mtxtNumeroTelefono.Location = new System.Drawing.Point(757, 275);
-            this.mtxtNumeroTelefono.Mask = "0000-0000";
-            this.mtxtNumeroTelefono.Name = "mtxtNumeroTelefono";
-            this.mtxtNumeroTelefono.Size = new System.Drawing.Size(106, 22);
-            this.mtxtNumeroTelefono.TabIndex = 43;
             // 
             // pnlNumeroTelefono
             // 
@@ -191,6 +183,16 @@
             this.lblCorreoElectronico.Size = new System.Drawing.Size(168, 24);
             this.lblCorreoElectronico.TabIndex = 1;
             this.lblCorreoElectronico.Text = "Correo Electronico";
+            // 
+            // txtCorreoElectronico
+            // 
+            this.txtCorreoElectronico.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorreoElectronico.Location = new System.Drawing.Point(733, 102);
+            this.txtCorreoElectronico.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCorreoElectronico.Multiline = true;
+            this.txtCorreoElectronico.Name = "txtCorreoElectronico";
+            this.txtCorreoElectronico.Size = new System.Drawing.Size(245, 31);
+            this.txtCorreoElectronico.TabIndex = 38;
             // 
             // pnlContacto
             // 
@@ -385,15 +387,13 @@
             this.txtClienteID.Size = new System.Drawing.Size(407, 31);
             this.txtClienteID.TabIndex = 26;
             // 
-            // txtCorreoElectronico
+            // mtxtNumeroTelefono
             // 
-            this.txtCorreoElectronico.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreoElectronico.Location = new System.Drawing.Point(733, 102);
-            this.txtCorreoElectronico.Margin = new System.Windows.Forms.Padding(4);
-            this.txtCorreoElectronico.Multiline = true;
-            this.txtCorreoElectronico.Name = "txtCorreoElectronico";
-            this.txtCorreoElectronico.Size = new System.Drawing.Size(245, 31);
-            this.txtCorreoElectronico.TabIndex = 38;
+            this.mtxtNumeroTelefono.Location = new System.Drawing.Point(757, 292);
+            this.mtxtNumeroTelefono.Mask = "(999)000-0000";
+            this.mtxtNumeroTelefono.Name = "mtxtNumeroTelefono";
+            this.mtxtNumeroTelefono.Size = new System.Drawing.Size(94, 22);
+            this.mtxtNumeroTelefono.TabIndex = 45;
             // 
             // frmAgregarClientes
             // 
@@ -434,7 +434,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.MaskedTextBox mtxtNumeroTelefono;
         private System.Windows.Forms.Panel pnlNumeroTelefono;
         private System.Windows.Forms.Label lblNumeroTelefono;
         private System.Windows.Forms.Panel pnlDireccion;
@@ -461,5 +460,6 @@
         private System.Windows.Forms.Panel pnlClienteID;
         private System.Windows.Forms.Label lblClienteID;
         private System.Windows.Forms.TextBox txtCorreoElectronico;
+        private System.Windows.Forms.MaskedTextBox mtxtNumeroTelefono;
     }
 }

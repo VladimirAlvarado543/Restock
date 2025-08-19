@@ -91,5 +91,10 @@ string.IsNullOrWhiteSpace(txtDireccion.Text) || string.IsNullOrWhiteSpace(mtxtNu
         {
 
         }
+
+        private void mtxtNumeroTelefono_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }

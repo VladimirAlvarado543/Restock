@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Modelo.Entidades
 {
@@ -20,27 +21,34 @@ namespace Modelo.Entidades
 
         public static DataTable VerMarca()
         {
+            try { 
             SqlConnection conexion = Conexion.ConexionDB.Conectar();
             string consultaQuery = "SELECT idMarca, nombreMarca, detalles FROM Marca;";
             SqlDataAdapter add = new SqlDataAdapter(consultaQuery, conexion);
             DataTable dataVirtual = new DataTable();
             add.Fill(dataVirtual);
             return dataVirtual;
+            }
+            catch
+            {
+                return null;
+            }
         }
-
         public bool InsertarMarca()
         {
+            try { 
             SqlConnection conexion = Conexion.ConexionDB.Conectar();
             string consultaQueryInsertar = "INSERT INTO Marca(NombreMarca, Detalles) VALUES (@NombreMarca, @Detalles);";
             SqlCommand insertar = new SqlCommand(consultaQueryInsertar, conexion);
             insertar.Parameters.AddWithValue("@NombreMarca", nombreMarca);
             insertar.Parameters.AddWithValue("@Detalles", detalles);
-            if (insertar.ExecuteNonQuery() > 0)
-            {
+                insertar.ExecuteNonQuery();
                 return true;
             }
-            else
+            catch (Exception ex)
             {
+                MessageBox.Show("No se pudo insertar la Marca" + ex.Message, "Error al insertar datos",
+                       MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }

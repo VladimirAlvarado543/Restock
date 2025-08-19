@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDahsboard));
             this.pnlBarraUsuario = new System.Windows.Forms.Panel();
             this.pnlBarraLateral = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -216,7 +217,7 @@
             // pbLogo
             // 
             this.pbLogo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pbLogo.Image = global::Vista.Properties.Resources.logo_opcion_2;
+            this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
             this.pbLogo.ImageLocation = "cen";
             this.pbLogo.InitialImage = global::Vista.Properties.Resources.logo_opcion_2;
             this.pbLogo.Location = new System.Drawing.Point(0, 0);
