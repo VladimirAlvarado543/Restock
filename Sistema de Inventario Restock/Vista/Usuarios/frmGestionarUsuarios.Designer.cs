@@ -290,8 +290,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaShell;
-            this.ClientSize = new System.Drawing.Size(1041, 585);
+            this.ClientSize = new System.Drawing.Size(1066, 626);
             this.Controls.Add(this.pnlPrincipal);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmGestionarUsuarios";
             this.Text = "frmGestionarUsuarios";
             this.Load += new System.EventHandler(this.frmGestionarUsuarios_Load);

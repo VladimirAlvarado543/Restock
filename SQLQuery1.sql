@@ -1,6 +1,6 @@
-CREATE DATABASE SistemaInventario
+CREATE DATABASE SistemaInventarioPPP
 GO
-USE SistemaInventario
+USE SistemaInventarioPPP
 Go
 ---Tabla para clientes---
 CREATE TABLE Cliente(
@@ -192,7 +192,7 @@ P.idProveedor = PR.idProveedor  WHERE 1=1
 
 SELECT *from Cliente WHERE 1=1 AND idCliente = 100
 
-SELECT *FROM ProductosVer
+
 SELECT *FROM Rol
 SELECT *FROM Cliente
 SELECT *FROM Proveedor

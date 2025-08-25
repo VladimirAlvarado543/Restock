@@ -1,134 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\",
+  "WorkspaceRootPath": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\modelo\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\modelo\\entidades\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entidades\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\modelo\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\modelo\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\modelo\\entidades\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entidades\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\modelo\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\marca y categoria\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\marca y categoria\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\marca y categoria\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\marca y categoria\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\marca y categoria\\frmmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\marca y categoria\\frmmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\marca y categoria\\frmmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\marca y categoria\\frmmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\stock y productos\\frmagregarproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\stock y productos\\frmagregarproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\marca y categoria\\frmmarcacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\marca y categoria\\frmmarcacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\marca y categoria\\frmmarcacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\marca y categoria\\frmmarcacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\clientes\\frmagregarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\clientes\\frmagregarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\clientes\\frmagregarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\clientes\\frmagregarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\usuarios\\frmgestionarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\usuarios\\frmgestionarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\iniciosesion\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\iniciosesion\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\iniciosesion\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\iniciosesion\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\dahsboard\\frmdahsboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\dahsboard\\frmdahsboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|c:\\users\\vladi\\onedrive\\escritorio\\ptc-master\\sistema de inventario restock\\vista\\stock y productos\\frmagregarproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\stock y productos\\frmagregarproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\proveedores\\frmagregarproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\proveedores\\frmagregarproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\clientes\\frmverclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\clientes\\frmverclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\clientes\\frmverclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\clientes\\frmverclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\proveedores\\frmverproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\proveedores\\frmverproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\stock y productos\\frmverproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\stock y productos\\frmverproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\stock y productos\\frmverproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\stock y productos\\frmverproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\proveedores\\frmagregarproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\proveedores\\frmagregarproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\modelo\\conexion\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|solutionrelative:modelo\\conexion\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\dahsboard\\frmdahsboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\dahsboard\\frmdahsboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|c:\\users\\ferna\\onedrive\\desktop\\restock\\sistema de inventario restock\\vista\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\proveedores\\frmverproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\proveedores\\frmverproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\modelo\\entidades\\gradientpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entidades\\gradientpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\vista\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\modelo\\entidades\\gradientpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entidades\\gradientpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\vista\\iniciosesion\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C618785-A3A9-46BD-B626-6D3F39EC40DB}|Vista\\Vista.csproj|solutionrelative:vista\\iniciosesion\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\modelo\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\modelo\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\modelo\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F8F2B5-6A90-4EC7-9707-B8E4D2EA2BDE}|Modelo\\Modelo.csproj|solutionrelative:modelo\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,404 +42,86 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Entidades\\Categoria.cs",
-              "RelativeDocumentMoniker": "Modelo\\Entidades\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Entidades\\Categoria.cs",
-              "RelativeToolTip": "Modelo\\Entidades\\Categoria.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAawCMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T06:05:08.657Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmMarcaCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Marca y categoria\\frmMarcaCategoria.cs",
-              "RelativeDocumentMoniker": "Vista\\Marca y categoria\\frmMarcaCategoria.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Marca y categoria\\frmMarcaCategoria.cs",
-              "RelativeToolTip": "Vista\\Marca y categoria\\frmMarcaCategoria.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAawEEAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T06:04:46.889Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "frmCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Marca y categoria\\frmCategoria.cs",
-              "RelativeDocumentMoniker": "Vista\\Marca y categoria\\frmCategoria.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Marca y categoria\\frmCategoria.cs",
-              "RelativeToolTip": "Vista\\Marca y categoria\\frmCategoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\Modelo\\Entidades\\Categoria.cs",
+              "RelativeDocumentMoniker": "Modelo\\Entidades\\Categoria.cs",
+              "ToolTip": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\Modelo\\Entidades\\Categoria.cs",
+              "RelativeToolTip": "Modelo\\Entidades\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T06:40:13.519Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T04:54:49.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmAgregarProductos.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Stock y Productos\\frmAgregarProductos.cs",
-              "RelativeDocumentMoniker": "Vista\\Stock y Productos\\frmAgregarProductos.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Stock y Productos\\frmAgregarProductos.cs",
-              "RelativeToolTip": "Vista\\Stock y Productos\\frmAgregarProductos.cs",
-              "ViewState": "AgIAAE8AAAAALVnKbVYewEgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "frmInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\Vista\\InicioSesion\\frmInicio.cs",
+              "RelativeDocumentMoniker": "Vista\\InicioSesion\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\ferna\\OneDrive\\Desktop\\PTC\\Restock\\Sistema de Inventario Restock\\Restock\\Sistema de Inventario Restock\\Vista\\InicioSesion\\frmInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC\\Restock\\Sistema de Inventario Restock\\Restock\\Sistema de Inventario Restock\\Vista\\InicioSesion\\frmInicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T22:20:44.431Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Entidades\\Producto.cs",
-              "RelativeDocumentMoniker": "Modelo\\Entidades\\Producto.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Entidades\\Producto.cs",
-              "RelativeToolTip": "Modelo\\Entidades\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T16:56:50.9Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "frmGestionarUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Usuarios\\frmGestionarUsuarios.cs",
-              "RelativeDocumentMoniker": "Vista\\Usuarios\\frmGestionarUsuarios.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Usuarios\\frmGestionarUsuarios.cs",
-              "RelativeToolTip": "Vista\\Usuarios\\frmGestionarUsuarios.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAtwCsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T21:54:02.894Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Marca.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Entidades\\Marca.cs",
-              "RelativeDocumentMoniker": "Modelo\\Entidades\\Marca.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Entidades\\Marca.cs",
-              "RelativeToolTip": "Modelo\\Entidades\\Marca.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAlwB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T06:09:53.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T04:45:57.164Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Entidades\\Cliente.cs",
-              "RelativeDocumentMoniker": "Modelo\\Entidades\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Entidades\\Cliente.cs",
-              "RelativeToolTip": "Modelo\\Entidades\\Cliente.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAtwF0AAAAAAAAAAAAAAA==",
+              "Title": "GradientPanel.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\Modelo\\Entidades\\GradientPanel.cs",
+              "RelativeDocumentMoniker": "Modelo\\Entidades\\GradientPanel.cs",
+              "ToolTip": "C:\\Users\\ferna\\OneDrive\\Desktop\\PTC\\Restock\\Sistema de Inventario Restock\\Restock\\Sistema de Inventario Restock\\Modelo\\Entidades\\GradientPanel.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC\\Restock\\Sistema de Inventario Restock\\Restock\\Sistema de Inventario Restock\\Modelo\\Entidades\\GradientPanel.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T05:32:35.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T04:43:45.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Proveedor.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Entidades\\Proveedor.cs",
-              "RelativeDocumentMoniker": "Modelo\\Entidades\\Proveedor.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Entidades\\Proveedor.cs",
-              "RelativeToolTip": "Modelo\\Entidades\\Proveedor.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAtwEgAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GradientPanel.cs",
+              "DocumentMoniker": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\Modelo\\Entidades\\GradientPanel.cs",
+              "RelativeDocumentMoniker": "Modelo\\Entidades\\GradientPanel.cs",
+              "ToolTip": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\Modelo\\Entidades\\GradientPanel.cs",
+              "RelativeToolTip": "Modelo\\Entidades\\GradientPanel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T05:04:33.764Z",
+              "WhenOpened": "2025-08-25T04:42:29.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\Vista\\Program.cs",
+              "RelativeDocumentMoniker": "Vista\\Program.cs",
+              "ToolTip": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\Vista\\Program.cs",
+              "RelativeToolTip": "Vista\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T05:12:56.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Entidades\\Usuario.cs",
-              "RelativeDocumentMoniker": "Modelo\\Entidades\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Entidades\\Usuario.cs",
-              "RelativeToolTip": "Modelo\\Entidades\\Usuario.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAtwGUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T21:49:02.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmCategoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Marca y categoria\\frmCategoria.cs",
-              "RelativeDocumentMoniker": "Vista\\Marca y categoria\\frmCategoria.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Marca y categoria\\frmCategoria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Marca y categoria\\frmCategoria.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T06:39:12.645Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmMarca.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Marca y categoria\\frmMarca.cs",
-              "RelativeDocumentMoniker": "Vista\\Marca y categoria\\frmMarca.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Marca y categoria\\frmMarca.cs",
-              "RelativeToolTip": "Vista\\Marca y categoria\\frmMarca.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAApwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T06:50:29.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmMarca.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Marca y categoria\\frmMarca.cs",
-              "RelativeDocumentMoniker": "Vista\\Marca y categoria\\frmMarca.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Marca y categoria\\frmMarca.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Marca y categoria\\frmMarca.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T06:44:39.143Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmMarcaCategoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Marca y categoria\\frmMarcaCategoria.cs",
-              "RelativeDocumentMoniker": "Vista\\Marca y categoria\\frmMarcaCategoria.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Marca y categoria\\frmMarcaCategoria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Marca y categoria\\frmMarcaCategoria.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T05:59:47.325Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "frmAgregarClientes.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Clientes\\frmAgregarClientes.cs",
-              "RelativeDocumentMoniker": "Vista\\Clientes\\frmAgregarClientes.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Clientes\\frmAgregarClientes.cs",
-              "RelativeToolTip": "Vista\\Clientes\\frmAgregarClientes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T02:31:13.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "frmAgregarClientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Clientes\\frmAgregarClientes.cs",
-              "RelativeDocumentMoniker": "Vista\\Clientes\\frmAgregarClientes.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Clientes\\frmAgregarClientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Clientes\\frmAgregarClientes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T17:39:34.685Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "frmInicio.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\InicioSesion\\frmInicio.cs",
-              "RelativeDocumentMoniker": "Vista\\InicioSesion\\frmInicio.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\InicioSesion\\frmInicio.cs",
-              "RelativeToolTip": "Vista\\InicioSesion\\frmInicio.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAtwCQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T07:12:59.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "frmInicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\InicioSesion\\frmInicio.cs",
-              "RelativeDocumentMoniker": "Vista\\InicioSesion\\frmInicio.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\InicioSesion\\frmInicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\InicioSesion\\frmInicio.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T07:10:09.451Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "frmDahsboard.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Dahsboard\\frmDahsboard.cs",
-              "RelativeDocumentMoniker": "Vista\\Dahsboard\\frmDahsboard.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Dahsboard\\frmDahsboard.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Dahsboard\\frmDahsboard.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T20:56:30.969Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "frmAgregarProductos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Stock y Productos\\frmAgregarProductos.cs",
-              "RelativeDocumentMoniker": "Vista\\Stock y Productos\\frmAgregarProductos.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Stock y Productos\\frmAgregarProductos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Stock y Productos\\frmAgregarProductos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T17:10:48.44Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "frmVerProveedores.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Proveedores\\frmVerProveedores.cs",
-              "RelativeDocumentMoniker": "Vista\\Proveedores\\frmVerProveedores.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Proveedores\\frmVerProveedores.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Proveedores\\frmVerProveedores.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T17:41:22.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "frmAgregarProveedor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Proveedores\\frmAgregarProveedor.cs",
-              "RelativeDocumentMoniker": "Vista\\Proveedores\\frmAgregarProveedor.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Proveedores\\frmAgregarProveedor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Proveedores\\frmAgregarProveedor.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T05:01:55.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "frmVerClientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Clientes\\frmVerClientes.cs",
-              "RelativeDocumentMoniker": "Vista\\Clientes\\frmVerClientes.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Clientes\\frmVerClientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Clientes\\frmVerClientes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T05:26:32.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "frmVerClientes.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Clientes\\frmVerClientes.cs",
-              "RelativeDocumentMoniker": "Vista\\Clientes\\frmVerClientes.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Clientes\\frmVerClientes.cs",
-              "RelativeToolTip": "Vista\\Clientes\\frmVerClientes.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAewBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T05:33:30.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "frmVerProductos.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Stock y Productos\\frmVerProductos.cs",
-              "RelativeDocumentMoniker": "Vista\\Stock y Productos\\frmVerProductos.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Stock y Productos\\frmVerProductos.cs",
-              "RelativeToolTip": "Vista\\Stock y Productos\\frmVerProductos.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAuwCoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T17:53:27.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "frmVerProductos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Stock y Productos\\frmVerProductos.cs",
-              "RelativeDocumentMoniker": "Vista\\Stock y Productos\\frmVerProductos.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Stock y Productos\\frmVerProductos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Stock y Productos\\frmVerProductos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T16:57:41.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "frmAgregarProveedor.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Proveedores\\frmAgregarProveedor.cs",
-              "RelativeDocumentMoniker": "Vista\\Proveedores\\frmAgregarProveedor.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Proveedores\\frmAgregarProveedor.cs",
-              "RelativeToolTip": "Vista\\Proveedores\\frmAgregarProveedor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T05:07:39.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ConexionDB.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Conexion\\ConexionDB.cs",
-              "RelativeDocumentMoniker": "Modelo\\Conexion\\ConexionDB.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Modelo\\Conexion\\ConexionDB.cs",
-              "RelativeToolTip": "Modelo\\Conexion\\ConexionDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAlwAEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T21:47:53.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "frmDahsboard.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Dahsboard\\frmDahsboard.cs",
-              "RelativeDocumentMoniker": "Vista\\Dahsboard\\frmDahsboard.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Dahsboard\\frmDahsboard.cs",
-              "RelativeToolTip": "Vista\\Dahsboard\\frmDahsboard.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAtwFkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T21:26:08.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Program.cs",
-              "RelativeDocumentMoniker": "Vista\\Program.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Program.cs",
-              "RelativeToolTip": "Vista\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T20:55:44.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "frmVerProveedores.cs",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Proveedores\\frmVerProveedores.cs",
-              "RelativeDocumentMoniker": "Vista\\Proveedores\\frmVerProveedores.cs",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\Proveedores\\frmVerProveedores.cs",
-              "RelativeToolTip": "Vista\\Proveedores\\frmVerProveedores.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAlwDkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T17:42:25.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\App.config",
-              "RelativeDocumentMoniker": "Vista\\App.config",
-              "ToolTip": "C:\\Users\\Vladi\\OneDrive\\Escritorio\\PTC-master\\Sistema de Inventario Restock\\Vista\\App.config",
-              "RelativeToolTip": "Vista\\App.config",
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\Modelo\\Entidades\\Cliente.cs",
+              "RelativeDocumentMoniker": "Modelo\\Entidades\\Cliente.cs",
+              "ToolTip": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\Modelo\\Entidades\\Cliente.cs",
+              "RelativeToolTip": "Modelo\\Entidades\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-07-24T17:56:42.36Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T04:54:57.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\Modelo\\Entidades\\Producto.cs",
+              "RelativeDocumentMoniker": "Modelo\\Entidades\\Producto.cs",
+              "ToolTip": "C:\\Users\\ferna\\OneDrive\\Desktop\\Restock\\Sistema de Inventario Restock\\Modelo\\Entidades\\Producto.cs",
+              "RelativeToolTip": "Modelo\\Entidades\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T04:54:58.886Z"
             }
           ]
         }

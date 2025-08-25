@@ -61,3 +61,58 @@ C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vist
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.csproj.Up2Date
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.exe
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Vista\obj\Debug\Vista.pdb
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\bin\Debug\Vista.exe
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\bin\Debug\Modelo.dll
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\bin\Debug\System.Drawing.Common.dll
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\bin\Debug\Modelo.pdb
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\bin\Debug\System.Drawing.Common.pdb
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\bin\Debug\System.Drawing.Common.xml
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.csproj.AssemblyReference.cache
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Clientes.frmAgregarClientes.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Clientes.frmVerClientes.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Dahsboard.frmDahsboard.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.InicioSesion.frmInicio.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmCategoria.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmMarca.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmMarcaCategoria.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Properties.Resources.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Proveedores.frmAgregarProveedor.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Proveedores.frmVerProveedores.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Stock_y_Productos.frmAgregarProductos.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Stock_y_Productos.frmVerProductos.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Usuarios.frmGestionarUsuarios.resources
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.csproj.GenerateResource.cache
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.exe
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.pdb
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\bin\Debug\Vista.exe.config
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\bin\Debug\Vista.pdb
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.csproj.Up2Date
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\bin\Debug\Vista.exe.config
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\bin\Debug\Vista.exe
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\bin\Debug\Vista.pdb
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\bin\Debug\Modelo.dll
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\bin\Debug\System.Drawing.Common.dll
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\bin\Debug\Modelo.pdb
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\bin\Debug\System.Drawing.Common.pdb
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\bin\Debug\System.Drawing.Common.xml
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.csproj.AssemblyReference.cache
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.exe.config
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Clientes.frmAgregarClientes.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Clientes.frmVerClientes.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Dahsboard.frmDahsboard.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.InicioSesion.frmInicio.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmCategoria.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmMarca.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Marca_y_categoria.frmMarcaCategoria.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Properties.Resources.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Proveedores.frmAgregarProveedor.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Proveedores.frmVerProveedores.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Stock_y_Productos.frmAgregarProductos.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Stock_y_Productos.frmVerProductos.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.Usuarios.frmGestionarUsuarios.resources
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.csproj.GenerateResource.cache
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.csproj.Up2Date
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.exe
+C:\Users\ferna\OneDrive\Desktop\Restock\Sistema de Inventario Restock\Vista\obj\Debug\Vista.pdb

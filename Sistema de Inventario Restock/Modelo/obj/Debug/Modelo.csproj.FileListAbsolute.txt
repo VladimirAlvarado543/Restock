@@ -16,3 +16,13 @@ C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Mode
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Modelo\obj\Debug\Modelo.dll
 C:\Users\Vladi\OneDrive\Escritorio\PTC-master\Sistema de Inventario Restock\Modelo\obj\Debug\Modelo.pdb
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Modelo\bin\Debug\Modelo.dll
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Modelo\bin\Debug\Modelo.pdb
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Modelo\bin\Debug\System.Drawing.Common.dll
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Modelo\bin\Debug\System.Drawing.Common.pdb
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Modelo\bin\Debug\System.Drawing.Common.xml
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Modelo\obj\Debug\Modelo.csproj.Up2Date
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Modelo\obj\Debug\Modelo.dll
+C:\Users\ferna\OneDrive\Desktop\PTC\Restock\Sistema de Inventario Restock\Restock\Sistema de Inventario Restock\Modelo\obj\Debug\Modelo.pdb

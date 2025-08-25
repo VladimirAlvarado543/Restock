@@ -9,8 +9,8 @@ namespace Modelo.Conexion
 {
     class ConexionDB
     {
-        private static string servidor = "VLADIMIR_AG\\SQLEXPRESS";
-        private static string baseDeDatos = "SistemaInventario";
+        private static string servidor = "DESKTOP-E9GI9BL\\SQLEXPRESS";
+        private static string baseDeDatos = "SistemaInventarioPPP";
 
         public static SqlConnection Conectar()
         {

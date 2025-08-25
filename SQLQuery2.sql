@@ -1,4 +1,4 @@
-Use SistemaInventario
+Use SistemaInventarioPPP
 Go
 
 insert into Proveedor values ('Alejandra Ramirez', 'ELECTRONICA STEREN EL SALVADOR SA DE CV

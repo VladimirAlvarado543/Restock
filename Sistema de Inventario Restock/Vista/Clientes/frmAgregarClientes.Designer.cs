@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.mtxtNumeroTelefono = new System.Windows.Forms.MaskedTextBox();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.pnlNumeroTelefono = new System.Windows.Forms.Panel();
             this.lblNumeroTelefono = new System.Windows.Forms.Label();
@@ -56,7 +57,6 @@
             this.pnlClienteID = new System.Windows.Forms.Panel();
             this.lblClienteID = new System.Windows.Forms.Label();
             this.txtClienteID = new System.Windows.Forms.TextBox();
-            this.mtxtNumeroTelefono = new System.Windows.Forms.MaskedTextBox();
             this.panel1.SuspendLayout();
             this.pnlNumeroTelefono.SuspendLayout();
             this.pnlDireccion.SuspendLayout();
@@ -95,6 +95,14 @@
             this.panel1.Size = new System.Drawing.Size(990, 561);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // mtxtNumeroTelefono
+            // 
+            this.mtxtNumeroTelefono.Location = new System.Drawing.Point(757, 292);
+            this.mtxtNumeroTelefono.Mask = "(999)000-0000";
+            this.mtxtNumeroTelefono.Name = "mtxtNumeroTelefono";
+            this.mtxtNumeroTelefono.Size = new System.Drawing.Size(94, 22);
+            this.mtxtNumeroTelefono.TabIndex = 45;
             // 
             // btnAgregar
             // 
@@ -386,14 +394,6 @@
             this.txtClienteID.ReadOnly = true;
             this.txtClienteID.Size = new System.Drawing.Size(407, 31);
             this.txtClienteID.TabIndex = 26;
-            // 
-            // mtxtNumeroTelefono
-            // 
-            this.mtxtNumeroTelefono.Location = new System.Drawing.Point(757, 292);
-            this.mtxtNumeroTelefono.Mask = "(999)000-0000";
-            this.mtxtNumeroTelefono.Name = "mtxtNumeroTelefono";
-            this.mtxtNumeroTelefono.Size = new System.Drawing.Size(94, 22);
-            this.mtxtNumeroTelefono.TabIndex = 45;
             // 
             // frmAgregarClientes
             // 

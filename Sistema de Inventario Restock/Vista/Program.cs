@@ -20,7 +20,7 @@ namespace Vista
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmInicio());
+            Application.Run(new frmInicio());//hola mundo
         }
     }
 }

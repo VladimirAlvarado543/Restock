@@ -38,8 +38,7 @@ namespace Modelo.Entidades
         public string CorreoElectronico1 { get => CorreoElectronico; set => CorreoElectronico = value; }
         public string Direccion1 { get => Direccion; set => Direccion = value; }
         public string Productos1 { get => Productos; set => Productos = value; }
-
-
+        public string Nombreempresa { get; set; }
 
         public bool InsertarProveedor()
         {

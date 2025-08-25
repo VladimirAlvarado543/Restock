@@ -37,8 +37,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.LBContrasena = new System.Windows.Forms.Label();
             this.LBBienvenido = new System.Windows.Forms.Label();
+            this.PNLBienvendia = new System.Windows.Forms.Panel();
+            this.LBBienvenidoPanel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.GBBienvenido.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBLogo)).BeginInit();
+            this.PNLBienvendia.SuspendLayout();
             this.SuspendLayout();
             // 
             // GBBienvenido
@@ -52,7 +56,7 @@
             this.GBBienvenido.Controls.Add(this.label4);
             this.GBBienvenido.Controls.Add(this.LBContrasena);
             this.GBBienvenido.Controls.Add(this.LBBienvenido);
-            this.GBBienvenido.Location = new System.Drawing.Point(311, 116);
+            this.GBBienvenido.Location = new System.Drawing.Point(545, 106);
             this.GBBienvenido.Name = "GBBienvenido";
             this.GBBienvenido.Size = new System.Drawing.Size(444, 450);
             this.GBBienvenido.TabIndex = 5;
@@ -134,19 +138,57 @@
             this.LBBienvenido.Text = "Bienvenido";
             this.LBBienvenido.Click += new System.EventHandler(this.LBBienvenido_Click);
             // 
+            // PNLBienvendia
+            // 
+            this.PNLBienvendia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.PNLBienvendia.Controls.Add(this.label1);
+            this.PNLBienvendia.Controls.Add(this.LBBienvenidoPanel);
+            this.PNLBienvendia.ForeColor = System.Drawing.SystemColors.Control;
+            this.PNLBienvendia.Location = new System.Drawing.Point(-89, -1);
+            this.PNLBienvendia.Name = "PNLBienvendia";
+            this.PNLBienvendia.Size = new System.Drawing.Size(526, 692);
+            this.PNLBienvendia.TabIndex = 6;
+            this.PNLBienvendia.Paint += new System.Windows.Forms.PaintEventHandler(this.PNLBienvendia_Paint);
+            // 
+            // LBBienvenidoPanel
+            // 
+            this.LBBienvenidoPanel.AutoSize = true;
+            this.LBBienvenidoPanel.Font = new System.Drawing.Font("Nirmala Text", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBBienvenidoPanel.ForeColor = System.Drawing.SystemColors.Control;
+            this.LBBienvenidoPanel.Location = new System.Drawing.Point(221, 171);
+            this.LBBienvenidoPanel.Name = "LBBienvenidoPanel";
+            this.LBBienvenidoPanel.Size = new System.Drawing.Size(154, 38);
+            this.LBBienvenidoPanel.TabIndex = 0;
+            this.LBBienvenidoPanel.Text = "Bienvenido";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(148, 312);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(325, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Ingresa con tus credenciales para ingresar al sistema";
+            // 
             // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(1082, 688);
+            this.Controls.Add(this.PNLBienvendia);
             this.Controls.Add(this.GBBienvenido);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "frmInicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmInicio";
             this.Load += new System.EventHandler(this.frmInicio_Load);
             this.GBBienvenido.ResumeLayout(false);
             this.GBBienvenido.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBLogo)).EndInit();
+            this.PNLBienvendia.ResumeLayout(false);
+            this.PNLBienvendia.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -161,5 +203,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label LBContrasena;
         private System.Windows.Forms.Label LBBienvenido;
+        private System.Windows.Forms.Panel PNLBienvendia;
+        private System.Windows.Forms.Label LBBienvenidoPanel;
+        private System.Windows.Forms.Label label1;
     }
 }
